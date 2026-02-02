@@ -4,7 +4,13 @@
       "mcp__serena__list_dir",
       "mcp__serena__activate_project",
       "WebSearch",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:www.sammyfans.com)",
+      "WebFetch(domain:ppc.land)"
     ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
   }
 }

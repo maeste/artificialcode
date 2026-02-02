@@ -178,3 +178,19 @@ cython_debug/
 
 
 thisweek*
+
+# claude's sandbox
+.bash_profile
+.bashrc
+.claude/agents
+.claude/commands
+.claude/settings.json
+.gitconfig
+.gitmodules
+.idea
+.mcp.json
+.profile
+.ripgreprc
+.vscode
+.zprofile
+.zshrc
