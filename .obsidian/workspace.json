@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newsletter/it/CY26W5-it.md",
+                "file": "newsletter/en/CY26W6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CY26W5-it"
+              "title": "CY26W6"
             }
           }
         ]
@@ -185,28 +185,31 @@
   },
   "active": "329bca55de832338",
   "lastOpenFiles": [
-    "newsletter/it/CY26W4-it.md",
+    "jorney.pdf",
+    "newsletter/it/CY26W6-it.md",
+    "newsletter/en/CY26W6.md",
+    "newsletter/en/CY26W6.md.tmp.2342142.1770506005444",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505729369",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505720622",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505608948",
+    "thisweek_links_clean.md",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770504857737",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770503968676",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770503071351",
+    "newsletter/it/CY26W6-it.md.tmp.2342142.1770502435138",
+    "thisweek_links.md",
+    "thisweek_links_clean.md.tmp.2274829.1770480246182",
+    "thisweek_links_clean.md.tmp.2274829.1770480109357",
     "newsletter/it/CY26W5-it.md",
+    "newsletter/it/CY26W4-it.md",
     "newsletter/en/CY26W4.md",
     "newsletter/en/CY26W5.md",
-    "newsletter/en/CY26W5.md.tmp.687867.1769951504142",
-    "newsletter/it/CY26W5-it.md.tmp.687867.1769951232678",
-    "thisweek_links_clean.md",
-    "newsletter/it/CY26W5-it.md.tmp.687867.1769950245844",
-    "newsletter/it/CY26W5-it.md.tmp.687867.1769948743344",
-    "newsletter/it/CY26W5-it.md.tmp.687867.1769947757213",
-    "newsletter/it/CY26W5-it.md.tmp.687867.1769946427757",
-    "thisweek_links.md",
-    "this_week_links_clean.md.tmp.591143.1769878111195",
     "interviste/Briefing_Intervista_Alessandro_Maserati.md",
     "interviste/Alessandro_Maserati_Interview_Briefing_Synthesis.md",
     "interviste/Sintesi_Hassabis_amodei.md",
     "claudedocs/Briefing_Intervista_Alessandro_Maserati.md",
-    "claudedocs/Briefing_Intervista_Alessandro_Maserati.md.tmp.196651.1769762042455",
     "interviste/Past interview.md",
     "claudedocs/Alessandro_Maserati_Interview_Briefing_Synthesis.md",
-    "claudedocs/Alessandro_Maserati_Interview_Briefing_Synthesis.md.tmp.169855.1769758190163",
-    "claudedocs",
     "interviste/Mail di Alessando.md",
     "newsletter/en/CY26W3.md"
   ]
