@@ -6,7 +6,27 @@
       "WebSearch",
       "Bash(python3:*)",
       "WebFetch(domain:www.sammyfans.com)",
-      "WebFetch(domain:ppc.land)"
+      "WebFetch(domain:ppc.land)",
+      "WebFetch(domain:shumer.dev)",
+      "WebFetch(domain:static.stepfun.com)",
+      "WebFetch(domain:substack.com)",
+      "WebFetch(domain:z.ai)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:blog.google)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:developer.chrome.com)",
+      "WebFetch(domain:www.dwarkesh.com)",
+      "WebFetch(domain:leaddev.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:www.kimi.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:venturebeat.com)",
+      "WebFetch(domain:cursor.com)",
+      "WebFetch(domain:developers.openai.com)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:lexfridman.com)",
+      "WebFetch(domain:web.archive.org)",
+      "WebFetch(domain:fortune.com)"
     ]
   },
   "sandbox": {

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newsletter/en/CY26W6.md",
+                "file": "newsletter/en/CY26W7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CY26W6"
+              "title": "CY26W7"
             }
           }
         ]
@@ -185,21 +185,30 @@
   },
   "active": "329bca55de832338",
   "lastOpenFiles": [
-    "jorney.pdf",
-    "newsletter/it/CY26W6-it.md",
-    "newsletter/en/CY26W6.md",
-    "newsletter/en/CY26W6.md.tmp.2342142.1770506005444",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505729369",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505720622",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770505608948",
+    "interviste/lombardini_linkedin.md",
+    "interviste/MIZIO RATTI.md",
+    "newsletter/it/CY26W7-it.md",
+    "newsletter/en/CY26W7.md",
+    "newsletter/en/CY26W7.md.tmp.386727.1771200996228",
+    "newsletter/it/CY26W7-it.md.tmp.386727.1771200642475",
+    "newsletter/it/CY26W7-it.md.tmp.386727.1771198615375",
     "thisweek_links_clean.md",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770504857737",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770503968676",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770503071351",
-    "newsletter/it/CY26W6-it.md.tmp.2342142.1770502435138",
+    "newsletter/it/CY26W7-it.md.tmp.386727.1771197240975",
+    "newsletter/it/CY26W7-it.md.tmp.386727.1771196215462",
+    "config",
+    "hooks",
+    "refs",
+    "objects",
+    "HEAD",
     "thisweek_links.md",
-    "thisweek_links_clean.md.tmp.2274829.1770480246182",
-    "thisweek_links_clean.md.tmp.2274829.1770480109357",
+    "newsletter/it/CY26W6-it.md",
+    "interviste/briefing_panel_ai_pubblicita_90min.md",
+    "newsletter/en/CY26W3.md",
+    "newsletter/en/CY26W6.md",
+    "claudedocs/briefing_panel_ai_pubblicita_90min.md",
+    "claudedocs/briefing_panel_ai_pubblicita.md",
+    "lombardini_linkedin.md",
+    "MIZIO RATTI.md",
     "newsletter/it/CY26W5-it.md",
     "newsletter/it/CY26W4-it.md",
     "newsletter/en/CY26W4.md",
@@ -210,7 +219,6 @@
     "claudedocs/Briefing_Intervista_Alessandro_Maserati.md",
     "interviste/Past interview.md",
     "claudedocs/Alessandro_Maserati_Interview_Briefing_Synthesis.md",
-    "interviste/Mail di Alessando.md",
-    "newsletter/en/CY26W3.md"
+    "interviste/Mail di Alessando.md"
   ]
 }
