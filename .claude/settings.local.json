@@ -26,7 +26,14 @@
       "WebFetch(domain:x.com)",
       "WebFetch(domain:lexfridman.com)",
       "WebFetch(domain:web.archive.org)",
-      "WebFetch(domain:fortune.com)"
+      "WebFetch(domain:fortune.com)",
+      "WebFetch(domain:pandas-ai.com)",
+      "WebFetch(domain:gabrieleventuri.eu)",
+      "WebFetch(domain:www.future-of-computing.com)",
+      "WebFetch(domain:tech.eu)",
+      "WebFetch(domain:www.ycombinator.com)",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:files.pythonhosted.org)"
     ]
   },
   "sandbox": {
