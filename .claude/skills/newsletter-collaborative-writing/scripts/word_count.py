@@ -22,8 +22,8 @@ def analyze_newsletter(file_path):
     # Total word count
     total_words = len(content.split())
 
-    # Split by category markers
-    categories = re.split(r'## [🧠🤖💻🏢🤖]', content)
+    # Split by category markers (any H2 header with emoji)
+    categories = re.split(r'(?=## (?:🤖|🕸️|💻|🏢|🧠))', content)
 
     # Count words in analysis sections only ("Cosa succede questa settimana?")
     analysis_words = 0

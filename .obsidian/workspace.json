@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thisweek_links.md",
+                "file": "newsletter/en/CY26W9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thisweek_links"
+              "title": "CY26W9"
             }
           }
         ]
@@ -185,26 +185,31 @@
   },
   "active": "329bca55de832338",
   "lastOpenFiles": [
+    "newsletter/it/CY26W9-it.md",
+    "newsletter/en/CY26W9.md",
+    "newsletter/en/CY26W9.md.tmp.1751824.1772281095931",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772280842506",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772280697803",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772280499000",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772280443138",
+    "newsletter/it/CY26W8-it.md",
+    "thisweek_links_clean.md",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772279631026",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772279549943",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772278293681",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772277483910",
+    "newsletter/it/CY26W9-it.md.tmp.1751824.1772277237655",
+    "thisweek_links.md",
+    "newsletter/en/CY26W8.md",
+    "risorse_clean.md",
     "interviste/briefing_gabriele_venturi.md",
     "newsletter/en/CY26W7.md",
-    "interviste/extract_transcript_debug.py",
-    "interviste/extract_transcript_debug.py.tmp.793184.1771262044886",
-    "interviste/extract_transcript_simple.py",
-    "interviste/extract_transcript_simple.py.tmp.793184.1771262017778",
-    "interviste/pip-unpack-f7gsc7ls/defusedxml-0.7.1-py2.py3-none-any.whl",
-    "interviste/pip-unpack-f7gsc7ls/youtube_transcript_api-1.2.4-py3-none-any.whl",
-    "interviste/pip-unpack-f7gsc7ls",
-    "interviste/pip-metadata-cb35l9a7/METADATA",
-    "interviste/pip-metadata-cb35l9a7",
-    "interviste/pip-unpack-u8asidf_/defusedxml-0.7.1-py2.py3-none-any.whl.metadata",
     "interviste/README_transcript_extraction.md",
     "interviste/venturi_briefing_structure_proposal.md",
     "interviste/venturi_linkedin.md",
     "interviste/lombardini_linkedin.md",
     "interviste/MIZIO RATTI.md",
     "newsletter/it/CY26W7-it.md",
-    "thisweek_links_clean.md",
-    "thisweek_links.md",
     "newsletter/it/CY26W6-it.md",
     "interviste/briefing_panel_ai_pubblicita_90min.md",
     "newsletter/en/CY26W3.md",
@@ -215,10 +220,6 @@
     "MIZIO RATTI.md",
     "newsletter/it/CY26W5-it.md",
     "newsletter/it/CY26W4-it.md",
-    "newsletter/en/CY26W4.md",
-    "newsletter/en/CY26W5.md",
-    "interviste/Briefing_Intervista_Alessandro_Maserati.md",
-    "interviste/Alessandro_Maserati_Interview_Briefing_Synthesis.md",
-    "interviste/Sintesi_Hassabis_amodei.md"
+    "newsletter/en/CY26W4.md"
   ]
 }

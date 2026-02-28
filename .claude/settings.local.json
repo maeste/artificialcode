@@ -33,7 +33,18 @@
       "WebFetch(domain:tech.eu)",
       "WebFetch(domain:www.ycombinator.com)",
       "WebFetch(domain:pypi.org)",
-      "WebFetch(domain:files.pythonhosted.org)"
+      "WebFetch(domain:files.pythonhosted.org)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:open.substack.com)",
+      "WebFetch(domain:newsletter.claudecodemasterclass.com)",
+      "WebFetch(domain:links.tldrnewsletter.com)",
+      "WebFetch(domain:link.mail.beehiiv.com)",
+      "WebFetch(domain:wispr.ai)",
+      "WebFetch(domain:wisprflow.ai)",
+      "WebFetch(domain:blog.kilo.ai)",
+      "WebFetch(domain:9to5mac.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:qwen.ai)"
     ]
   },
   "sandbox": {
