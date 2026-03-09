@@ -3,7 +3,7 @@ name: newsletter-collaborative-writing
 description: Guides collaborative writing process for the codiceartificiale newsletter. Collects user analysis, takeaways, and action items category by category while preserving user voice. Use when user mentions "scrivere newsletter", "newsletter codiceartificiale", "codice artificiale", or "scrittura collaborativa".
 metadata:
   author: codiceartificiale
-  version: "1.2"
+  version: "1.3"
 
 scripts:
   - path: scripts/word_count.py
@@ -36,6 +36,15 @@ Ask the user for the input file containing the links to be processed.
 **Ask:** "Per favore, forniscimi il percorso del file markdown di input che contiene i link organizzati per categoria da trattare nella newsletter."
 
 See [references/INPUT_FORMAT.md](references/INPUT_FORMAT.md) for the expected input format.
+
+### Step 1.5: Ask Input Mode
+Before starting to process categories, ask the user how they will provide their texts.
+
+**Ask:** "Come inserirai i tuoi testi? Digitando o usando speech-to-text (dettatura vocale)?"
+
+- If the user chooses **speech-to-text**: activate the Speech-to-Text Input Mode (see dedicated section below) for the entire session. All user texts will receive extended STT proofreading.
+- If the user chooses **typing**: use standard proofreading only (grammar, spelling, punctuation).
+- The user can switch mode at any point during the session by explicitly requesting it.
 
 ### Step 2: Process Each Category Iteratively
 For each category found in the input file:
@@ -292,7 +301,7 @@ python3 scripts/word_count.py [ENGLISH_OUTPUT_FILE_PATH]
 
 ## Important Rules
 
-1. **Text Preservation:** User's "La mia analisi", takeaways, and action items are semi-definitive. Apply only proofreading corrections (grammar, spelling, punctuation) without changing style or content.
+1. **Text Preservation:** User's "La mia analisi", takeaways, and action items are semi-definitive. Apply proofreading corrections (grammar, spelling, punctuation) without changing style or content. When the user indicates speech-to-text input mode, extend proofreading to include speech-to-text specific corrections (see "Speech-to-Text Input Mode" section below).
 
 2. **Output Path:** The output file path must be provided in Italian by the user.
 
@@ -305,6 +314,36 @@ python3 scripts/word_count.py [ENGLISH_OUTPUT_FILE_PATH]
 6. **Review Without Modification:** In Step 4, provide feedback and proposals but do NOT modify the file directly. Wait for user approval.
 
 7. **Complete Process:** Follow all steps in order without skipping.
+
+## Speech-to-Text Input Mode
+
+When the user indicates they are using speech-to-text (STT) to dictate their texts, the proofreading scope expands while still preserving the user's voice and content. This mode can be activated at any point during the session and applies to all subsequent user inputs.
+
+### Activation
+- User explicitly states they are using speech-to-text / voice input / dictation
+- Once activated, remains active for the entire session
+
+### Extended Proofreading Scope (STT-specific)
+In addition to standard proofreading (grammar, spelling, punctuation), apply the following corrections:
+
+1. **Punctuation restoration:** Add missing periods, commas, semicolons, and colons that STT typically omits
+2. **Sentence segmentation:** Break run-on sentences caused by continuous dictation into properly separated sentences
+3. **Capitalization:** Fix missing capitalization at sentence beginnings and for proper nouns
+4. **Filler word removal:** Remove verbal fillers (e.g., "ehm", "cioè", "diciamo", "praticamente", "insomma") only when they add no meaning to the written text
+5. **Repetition cleanup:** Remove unintentional word/phrase repetitions caused by dictation hesitation
+6. **Register adaptation:** Smooth overly colloquial oral constructions into written register while preserving the author's conversational tone
+7. **Connective flow:** Improve logical connectives between sentences where oral speech relied on intonation rather than explicit conjunctions
+8. **Homophone correction:** Fix common STT homophone errors in Italian (e.g., "a" vs "ha", "o" vs "ho", "anno" vs "hanno")
+
+### Boundaries (what NOT to change)
+- **Content:** Never alter the meaning, arguments, or opinions expressed
+- **Style:** Preserve the author's characteristic voice and expressions
+- **Structure:** Keep the logical order of ideas as dictated
+- **Terminology:** Maintain technical terms as the user intended them
+- **Emphasis:** Preserve rhetorical choices even if they sound "oral" — the newsletter has a conversational tone
+
+### Transparency
+When STT corrections go beyond basic proofreading, briefly note the most significant changes made so the user can verify them.
 
 ## Tool Selection
 
