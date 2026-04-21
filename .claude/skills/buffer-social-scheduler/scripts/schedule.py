@@ -44,6 +44,19 @@ CHAR_LIMITS = {
 
 PLAN_LIMIT_PER_CHANNEL = 10
 SIMILARITY_WARN_THRESHOLD = 0.5
+URL_REGEX = re.compile(r"https?://\S+")
+TWITTER_URL_LENGTH = 23  # X normalizes all URLs to 23 chars in its char counter
+
+
+def effective_length(text, service):
+    """Return text length with URLs normalized for twitter (X) limits.
+
+    X/Twitter counts every URL as 23 chars regardless of actual length.
+    Other services count raw characters.
+    """
+    if service == "twitter":
+        return len(URL_REGEX.sub("X" * TWITTER_URL_LENGTH, text))
+    return len(text)
 
 
 def slug(text):
@@ -307,12 +320,12 @@ def validate(campaign, channels):
         if not post["text"]:
             errors.append(f"Post #{pid}: body is empty")
 
-        # Char limits
+        # Char limits (with URL normalization for twitter)
         limit, mode = CHAR_LIMITS.get(service, (None, None))
         if limit is not None:
-            length = len(post["text"])
+            length = effective_length(post["text"], service)
             if length > limit:
-                msg = f"Post #{pid}: text is {length} chars, exceeds {service} limit of {limit}"
+                msg = f"Post #{pid}: text is {length} effective chars, exceeds {service} limit of {limit}"
                 if mode == "hard":
                     errors.append(msg)
                 else:
