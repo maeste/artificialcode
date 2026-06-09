@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "lince.sh" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e5]:
+        - link "Features" [ref=e6] [cursor=pointer]:
+          - /url: "#features"
+        - link "Sandbox" [ref=e7] [cursor=pointer]:
+          - /url: "#sandbox"
+        - link "Install" [ref=e8] [cursor=pointer]:
+          - /url: "#install"
+        - link "Repos" [ref=e9] [cursor=pointer]:
+          - /url: "#repos"
+        - link "Docs" [ref=e10] [cursor=pointer]:
+          - /url: /documentation/
+        - link "GitHub" [ref=e11] [cursor=pointer]:
+          - /url: https://github.com/RisorseArtificiali/lince
+  - generic [ref=e13]:
+    - paragraph [ref=e14]: Secure multi-agent workstation
+    - heading "Your agents should be sandboxed, orchestrated, and vendor-independent." [level=1] [ref=e15]:
+      - text: Your agents should be
+      - text: sandboxed, orchestrated,
+      - text: and vendor-independent.
+    - paragraph [ref=e16]: LINCE turns your terminal into a multi-agent engineering workstation. Run Claude, Codex, Gemini, or any coding agent in parallel — each one sandboxed, monitored, and controllable by voice. No vendor lock-in.
+    - generic [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: $
+      - code [ref=e19]: curl -sSL https://lince.sh/install | bash
+      - button "Copy" [ref=e20]:
+        - img [ref=e21]
+    - paragraph [ref=e24]:
+      - text: Linux (fully supported) · macOS (experimental) ·
+      - link "Windows (planned)" [ref=e25] [cursor=pointer]:
+        - /url: https://github.com/RisorseArtificiali/lince/issues/22
+  - generic [ref=e27]:
+    - heading "Why LINCE?" [level=2] [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: 🛡
+        - heading "Agents need sandboxing" [level=3] [ref=e32]
+        - paragraph [ref=e33]: AI coding agents get full terminal access. Without isolation, one bad command can reach your SSH keys, cloud credentials, or git push to production. LINCE lets you sandbox each agent with multiple backends — and choose per-agent at runtime.
+      - generic [ref=e34]:
+        - generic [ref=e35]: 🎯
+        - heading "Orchestrate, don't babysit" [level=3] [ref=e36]
+        - paragraph [ref=e37]: Run 8+ agents in parallel across different projects. The TUI dashboard shows real-time status, token usage, and active tools. Spawn, focus, hide, kill agents with single keystrokes.
+      - generic [ref=e38]:
+        - generic [ref=e39]: 🎙
+        - heading "Whisper to any agent" [level=3] [ref=e40]
+        - paragraph [ref=e41]: Speak and your words are transcribed locally via Whisper, then routed to whichever agent has focus. No audio leaves your machine. Works with any agent, not just one vendor.
+      - generic [ref=e42]:
+        - generic [ref=e43]: 🌐
+        - heading "No vendor lock-in" [level=3] [ref=e44]
+        - paragraph [ref=e45]: Your workflow and security should not depend on a single vendor. LINCE supports Claude Code, Codex, Gemini, OpenCode, Aider, Amp — and any custom agent via config. Switch freely.
+  - generic [ref=e47]:
+    - heading "The Dashboard" [level=2] [ref=e48]
+    - paragraph [ref=e49]: A Zellij WASM plugin that acts as your command center. Config-driven — add new agent types with TOML, no code changes.
+    - generic [ref=e50]:
+      - img "LINCE Dashboard - showing multiple agents running in parallel with status, sandbox, and profile columns" [ref=e51]
+      - img "LINCE Dashboard - detailed view showing agent info panel and Claude Code interaction" [ref=e52]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "Multi-agent" [level=4] [ref=e55]
+        - paragraph [ref=e56]: 8+ agents in parallel. Claude, Codex, Gemini, OpenCode, or custom.
+      - generic [ref=e57]:
+        - heading "Session persistence" [level=4] [ref=e58]
+        - paragraph [ref=e59]: Save and restore your agent constellation across sessions.
+      - generic [ref=e60]:
+        - heading "Voice relay" [level=4] [ref=e61]
+        - paragraph [ref=e62]: VoxCode transcriptions piped directly to the focused agent.
+      - generic [ref=e63]:
+        - heading "Sandbox isolation" [level=4] [ref=e64]
+        - paragraph [ref=e65]: Choose a sandbox backend per agent at launch — or run unsandboxed when you need full host access.
+      - generic [ref=e66]:
+        - heading "Swimlane grouping" [level=4] [ref=e67]
+        - paragraph [ref=e68]: Agents auto-grouped by project directory when working across repos.
+      - generic [ref=e69]:
+        - heading "Config-driven" [level=4] [ref=e70]
+        - paragraph [ref=e71]: Add agents via TOML. No code changes, no recompilation.
+  - generic [ref=e73]:
+    - heading "Install" [level=2] [ref=e74]
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "One-liner" [level=3] [ref=e77]
+        - generic [ref=e78]: $ curl -sSL https://lince.sh/install | bash
+        - paragraph [ref=e79]: "Interactive wizard: detects your OS, installs prerequisites, sets up sandbox + dashboard. Offers optional VoxCode voice input."
+      - generic [ref=e80]:
+        - heading "Manual" [level=3] [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e83]: $ git clone https://github.com/RisorseArtificiali/lince
+          - generic [ref=e84]: $ cd lince/sandbox && ./install.sh
+          - generic [ref=e85]: $ cd ../lince-dashboard && ./install.sh
+          - generic [ref=e86]: $ source ~/.bashrc && zd
+        - paragraph [ref=e87]:
+          - text: Clone, install sandbox + dashboard, launch. See
+          - link "QUICKSTART.md" [ref=e88] [cursor=pointer]:
+            - /url: https://github.com/RisorseArtificiali/lince/blob/main/QUICKSTART.md
+          - text: for details.
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]: ✓
+          - heading "Linux" [level=4] [ref=e93]
+        - paragraph [ref=e94]: Fully supported. Tested on Fedora, Ubuntu, Arch.
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: ⚠
+          - heading "macOS" [level=4] [ref=e98]
+        - paragraph [ref=e99]:
+          - text: Experimental. Sandbox via
+          - link "nono" [ref=e100] [cursor=pointer]:
+            - /url: https://nono.sh
+          - text: (Seatbelt).
+          - link "Looking for testers." [ref=e101] [cursor=pointer]:
+            - /url: https://github.com/RisorseArtificiali/lince/issues/19
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: —
+          - heading "Windows" [level=4] [ref=e105]
+        - paragraph [ref=e106]:
+          - text: Planned. WSL2 likely works today.
+          - link "Tracking issue." [ref=e107] [cursor=pointer]:
+            - /url: https://github.com/RisorseArtificiali/lince/issues/22
+  - generic [ref=e109]:
+    - heading "How it works" [level=2] [ref=e110]
+    - generic [ref=e112]: You speak ───> VoxCode ───> Whisper transcribes locally │ Dashboard <─── routes to focused agent │ agent-sandbox <─── isolates execution ├── bwrap ┐ ├── nono ├── choose per agent └── none ┘ ┌──────┼──────┐ Claude Codex Gemini ...any agent │ │ │ project/ project/ project/
+    - paragraph [ref=e113]:
+      - text: Read the full
+      - link "documentation" [ref=e114] [cursor=pointer]:
+        - /url: /documentation/
+      - text: for CLI reference, configuration options, and security model.
+  - generic [ref=e116]:
+    - heading "Sandbox Backends" [level=2] [ref=e117]
+    - paragraph [ref=e118]: The installer configures which backends are available. Each time you launch an agent, you choose which one to use.
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: ✓
+          - heading "bubblewrap" [level=3] [ref=e123]
+        - paragraph [ref=e124]: Linux only
+        - paragraph [ref=e125]: Same technology as Flatpak. LINCE's built-in sandbox — minimal by design, zero external dependencies. Battle-tested, zero overhead.
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: ✓
+          - heading "nono" [level=3] [ref=e129]
+        - paragraph [ref=e130]: Linux & macOS
+        - paragraph [ref=e131]:
+          - text: Newer alternative. Integration with
+          - link "nono.sh" [ref=e132] [cursor=pointer]:
+            - /url: https://nono.sh
+          - text: ", an external project focused on security including network isolation. Uses Landlock on Linux, Seatbelt on macOS. Brings some additional dependencies."
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]: ⚠
+          - heading "Unsandboxed" [level=3] [ref=e136]
+        - paragraph [ref=e137]: Any platform
+        - paragraph [ref=e138]: No isolation. The agent runs directly on your system with full host access. Use for trusted tasks where you need unrestricted access to the host environment.
+  - generic [ref=e140]:
+    - heading "Repositories" [level=2] [ref=e141]
+    - generic [ref=e142]:
+      - link "core lince Sandbox + Dashboard + Hooks. The multi-agent orchestration platform." [ref=e143] [cursor=pointer]:
+        - /url: https://github.com/RisorseArtificiali/lince
+        - generic [ref=e144]:
+          - generic [ref=e145]: core
+          - heading "lince" [level=3] [ref=e146]
+        - paragraph [ref=e147]: Sandbox + Dashboard + Hooks. The multi-agent orchestration platform.
+      - link "voice voxcode Voice input for AI agents. Local Whisper transcription, Zellij pipe integration." [ref=e148] [cursor=pointer]:
+        - /url: https://github.com/RisorseArtificiali/voxcode
+        - generic [ref=e149]:
+          - generic [ref=e150]: voice
+          - heading "voxcode" [level=3] [ref=e151]
+        - paragraph [ref=e152]: Voice input for AI agents. Local Whisper transcription, Zellij pipe integration.
+      - link "audio voxtts Text-to-Speech with local GPU/CPU engines. Kokoro and Piper TTS." [ref=e153] [cursor=pointer]:
+        - /url: https://github.com/RisorseArtificiali/voxtts
+        - generic [ref=e154]:
+          - generic [ref=e155]: audio
+          - heading "voxtts" [level=3] [ref=e156]
+        - paragraph [ref=e157]: Text-to-Speech with local GPU/CPU engines. Kokoro and Piper TTS.
+      - link "skill agent-ready-skill Assess any project's readiness for agentic coding. agentskills.io compliant." [ref=e158] [cursor=pointer]:
+        - /url: https://github.com/RisorseArtificiali/agent-ready-skill
+        - generic [ref=e159]:
+          - generic [ref=e160]: skill
+          - heading "agent-ready-skill" [level=3] [ref=e161]
+        - paragraph [ref=e162]: Assess any project's readiness for agentic coding. agentskills.io compliant.
+  - contentinfo [ref=e163]:
+    - generic [ref=e164]:
+      - paragraph [ref=e165]:
+        - text: © 2026
+        - link "RisorseArtificiali" [ref=e166] [cursor=pointer]:
+          - /url: https://github.com/RisorseArtificiali
+        - text: . MIT License.
+      - generic [ref=e167]:
+        - link "GitHub" [ref=e168] [cursor=pointer]:
+          - /url: https://github.com/RisorseArtificiali/lince
+        - link "Docs" [ref=e169] [cursor=pointer]:
+          - /url: https://github.com/RisorseArtificiali/lince/blob/main/QUICKSTART.md
+        - link "Issues" [ref=e170] [cursor=pointer]:
+          - /url: https://github.com/RisorseArtificiali/lince/issues

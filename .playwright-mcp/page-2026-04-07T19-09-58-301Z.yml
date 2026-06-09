@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - iframe
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - link "Codice Artificiale" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Codice Artificiale" [ref=e13]
+      - heading "Codice Artificiale" [level=1] [ref=e15]:
+        - link "Codice Artificiale" [ref=e16] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - button "Search" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+          - button "Condividi pubblicazione" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+        - button "Iscriviti" [ref=e30] [cursor=pointer]
+        - button "Accedi" [ref=e31] [cursor=pointer]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img [ref=e37]
+          - generic [ref=e38]:
+            - 'heading "La superficie d’attacco sei tu: perché ho costruito una sandbox per i miei agenti" [level=2] [ref=e39]'
+            - generic [ref=e40]: "🔗 Scopri di più su di me, sul mio lavoro e su come restare in contatto: maeste.it – biografia personale, progetti e link ai social."
+            - generic [ref=e41]: By Stefano Maestri
+        - generic [ref=e42]:
+          - generic [ref=e47]:
+            - textbox "Digita la tua email..." [ref=e50]
+            - button "Iscriviti" [disabled] [ref=e51]
+          - generic [ref=e52]: Publishes on April 13th, 6:00am. Subscribe now and receive the post in your inbox when it’s live
+      - generic [ref=e55]: Available in 5 days, 8 hours, 50 minutes, and 1 second
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]: © 2026 Stefano Maestri
+        - text: ·
+        - link "Privacy" [ref=e61] [cursor=pointer]:
+          - /url: https://substack.com/privacy
+        - text: ∙
+        - link "Condizioni" [ref=e62] [cursor=pointer]:
+          - /url: https://substack.com/tos
+        - text: ∙
+        - link "Notifica di raccolta" [ref=e63] [cursor=pointer]:
+          - /url: https://substack.com/ccpa#personal-data-collected
+      - generic [ref=e64]:
+        - link "Inizia il tuo Substack" [ref=e65] [cursor=pointer]:
+          - /url: https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer
+          - img [ref=e66]
+          - text: Inizia il tuo Substack
+        - link "Scarica l'app" [ref=e71] [cursor=pointer]:
+          - /url: https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button
+      - generic [ref=e72]:
+        - link "Substack" [ref=e73] [cursor=pointer]:
+          - /url: https://substack.com
+        - text: è la casa della grande cultura
+    - generic [ref=e75]:
+      - heading "Politica sui cookie" [level=4] [ref=e76]
+      - generic [ref=e77]:
+        - text: Usiamo i cookie per migliorare la tua esperienza, per analisi e per marketing. Puoi accettare, rifiutare o gestire le tue preferenze. Consulta la nostra
+        - link "privacy policy" [ref=e78] [cursor=pointer]:
+          - /url: https://substack.com/tos
+        - text: .
+      - generic [ref=e79]:
+        - button "Gestisci" [ref=e80] [cursor=pointer]
+        - button "Rifiuta" [ref=e81] [cursor=pointer]
+        - button "Accetta" [ref=e82] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list

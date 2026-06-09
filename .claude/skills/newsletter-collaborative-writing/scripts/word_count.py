@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """
 Word Count Analysis for Newsletter
-Counts words in different sections for reading time estimation
+Counts words in different sections for reading time estimation.
+Supports both Italian and English newsletter formats, with or without emoji in headers.
 """
 
 import sys
 import re
+
 
 def count_words(text):
     """Count words in text, ignoring markdown links."""
     # Remove markdown links but keep the text
     text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
     return len(text.split())
+
 
 def analyze_newsletter(file_path):
     """Analyze newsletter and return word counts for different sections."""
@@ -22,27 +25,18 @@ def analyze_newsletter(file_path):
     # Total word count
     total_words = len(content.split())
 
-    # Split by category markers (any H2 header with emoji)
-    categories = re.split(r'(?=## (?:🤖|🕸️|💻|🏢|🧠))', content)
+    # Find all analysis sections (IT: "Cosa succede questa settimana?", EN: "What's happening this week?")
+    analysis_pattern = r'###\s+(?:Cosa succede questa settimana\?|What\'s happening this week\?)(.*?)(?=###|## |$)'
+    analysis_matches = re.findall(analysis_pattern, content, re.DOTALL)
+    analysis_words = sum(count_words(match) for match in analysis_matches)
 
-    # Count words in analysis sections only ("Cosa succede questa settimana?")
-    analysis_words = 0
-    main_content_words = 0
-
-    for category in categories:
-        # Find analysis section
-        analysis_match = re.search(r'### Cosa succede questa settimana\?(.*?)(?=###|$)', category, re.DOTALL)
-        if analysis_match:
-            analysis_text = analysis_match.group(1)
-            analysis_words += count_words(analysis_text)
-
-        # Find takeaways and action items
-        takeaway_match = re.search(r'### I Takeaways per gli AI Engineers(.*?)(?=### Cosa succede|### I link|$)', category, re.DOTALL)
-        if takeaway_match:
-            main_content_words += count_words(takeaway_match.group(1))
+    # Find all takeaway/action item sections (IT and EN)
+    takeaway_pattern = r'###\s+(?:I Takeaways per gli AI Engineers|Takeaways for AI Engineers)(.*?)(?=###|## |$)'
+    takeaway_matches = re.findall(takeaway_pattern, content, re.DOTALL)
+    takeaway_words = sum(count_words(match) for match in takeaway_matches)
 
     # Main content = analysis + takeaways + action items (excluding link sections)
-    main_content_words = analysis_words + main_content_words
+    main_content_words = analysis_words + takeaway_words
 
     return {
         'analysis': analysis_words,
@@ -50,9 +44,11 @@ def analyze_newsletter(file_path):
         'total': total_words
     }
 
+
 def calculate_reading_time(words, speed=200):
     """Calculate reading time in minutes."""
     return round(words / speed, 1)
+
 
 def main():
     if len(sys.argv) < 2:
@@ -75,6 +71,7 @@ def main():
     print(f"ANALYSIS_TIME_NORMAL={analysis_normal}")
     print(f"MAIN_CONTENT_TIME_NORMAL={main_normal}")
     print(f"TOTAL_TIME_NORMAL={total_normal}")
+
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - iframe
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - link "Artificial Code" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Artificial Code" [ref=e13]
+      - heading "Artificial Code" [level=1] [ref=e15]:
+        - link "Artificial Code" [ref=e16] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - button "Search" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+          - button "Share Publication" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+        - button "Subscribe" [ref=e30] [cursor=pointer]
+        - button "Sign in" [ref=e31] [cursor=pointer]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img [ref=e37]
+          - generic [ref=e38]:
+            - 'heading "The attack surface is you: why I built a sandbox for my agents" [level=2] [ref=e39]'
+            - generic [ref=e40]: "🔗 Learn more about me, my work, and how to connect: maeste.it – personal bio, projects, and social links."
+            - generic [ref=e41]: By Stefano Maestri
+        - generic [ref=e42]:
+          - generic [ref=e47]:
+            - textbox "Type your email..." [ref=e50]
+            - button "Subscribe" [disabled] [ref=e51]
+          - generic [ref=e52]: Publishes on April 13th, 6:00am. Subscribe now and receive the post in your inbox when it’s live
+      - generic [ref=e55]: Available in 5 days, 8 hours, 49 minutes, and 29 seconds
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]: © 2026 Stefano Maestri
+        - text: ·
+        - link "Privacy" [ref=e61] [cursor=pointer]:
+          - /url: https://substack.com/privacy
+        - text: ∙
+        - link "Terms" [ref=e62] [cursor=pointer]:
+          - /url: https://substack.com/tos
+        - text: ∙
+        - link "Collection notice" [ref=e63] [cursor=pointer]:
+          - /url: https://substack.com/ccpa#personal-data-collected
+      - generic [ref=e64]:
+        - link "Start your Substack" [ref=e65] [cursor=pointer]:
+          - /url: https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer
+          - img [ref=e66]
+          - text: Start your Substack
+        - link "Get the app" [ref=e71] [cursor=pointer]:
+          - /url: https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button
+      - generic [ref=e72]:
+        - link "Substack" [ref=e73] [cursor=pointer]:
+          - /url: https://substack.com
+        - text: is the home for great culture
+    - generic [ref=e75]:
+      - heading "Cookie Policy" [level=4] [ref=e76]
+      - generic [ref=e77]:
+        - text: We use cookies to improve your experience, for analytics, and for marketing. You can accept, reject, or manage your preferences. See our
+        - link "privacy policy" [ref=e78] [cursor=pointer]:
+          - /url: https://substack.com/tos
+        - text: .
+      - generic [ref=e79]:
+        - button "Manage" [ref=e80] [cursor=pointer]
+        - button "Reject" [ref=e81] [cursor=pointer]
+        - button "Accept" [ref=e82] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
