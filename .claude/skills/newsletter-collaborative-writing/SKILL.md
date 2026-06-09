@@ -64,17 +64,19 @@ Ask the following questions in order:
 3. **Suggested takeaways and action items (for user's benefit):**
    Based on the user's analysis (70% weight) and the provided links (30% weight), propose 3 suggested takeaways and 2 suggested action items to help the user formulate their final versions. Clearly label these as suggestions only.
 
+   **Style: keep takeaways and action items concise and synthetic** — one sentence each, no elaboration. The user prefers short, punchy formulations over detailed explanations.
+
    **Format:**
    "💡 Ecco i miei suggerimenti basati sulla tua analisi e sui link (solo a tuo beneficio per aiutarti ad elaborare quelli finali):"
 
    **Suggested Takeaways:**
-   - [Takeaway 1]
-   - [Takeaway 2]
-   - [Takeaway 3]
+   - [Takeaway 1 — one concise sentence]
+   - [Takeaway 2 — one concise sentence]
+   - [Takeaway 3 — one concise sentence]
 
    **Suggested Action Items:**
-   - [Action item 1]
-   - [Action item 2]
+   - [Action item 1 — one concise sentence]
+   - [Action item 2 — one concise sentence]
 
 4. **Three takeaways (user's final version):**
    "Ora, per favore, fornisci i tuoi 3 takeaway finali per questa categoria. Anche questi testi riceveranno solo una revisione da correttore di bozze senza alterare contenuti e stile."
@@ -219,7 +221,7 @@ After completing the consistency check, perform a word count analysis using the 
 
 **Script to execute:**
 ```bash
-python3 scripts/word_count.py [OUTPUT_FILE_PATH]
+python3 .claude/skills/newsletter-collaborative-writing/scripts/word_count.py [OUTPUT_FILE_PATH]
 ```
 
 **Output Format:**

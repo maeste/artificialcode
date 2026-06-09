@@ -44,11 +44,17 @@
       "WebFetch(domain:blog.kilo.ai)",
       "WebFetch(domain:9to5mac.com)",
       "WebFetch(domain:docs.anthropic.com)",
-      "WebFetch(domain:qwen.ai)"
+      "WebFetch(domain:qwen.ai)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:a2a-protocol.org)",
+      "WebFetch(domain:www.newsletter.swirlai.com)",
+      "WebFetch(domain:tracking.tldrnewsletter.com)",
+      "WebFetch(domain:www.oneusefulthing.org)",
+      "WebFetch(domain:api.github.com)"
     ]
   },
   "sandbox": {
-    "enabled": true,
-    "autoAllowBashIfSandboxed": true
+    "enabled": false,
+    "autoAllowBashIfSandboxed": false
   }
 }

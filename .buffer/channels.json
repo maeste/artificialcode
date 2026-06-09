@@ -1,0 +1,14 @@
+{
+  "li_maeste": {
+    "id": "6807f1fe3dcfffe9e777db1b",
+    "service": "linkedin",
+    "name": "maeste",
+    "organization_id": "6807f1aa8233401e7581329b"
+  },
+  "x_maeste": {
+    "id": "6807f1bd3dcfffe9e7743adc",
+    "service": "twitter",
+    "name": "maeste",
+    "organization_id": "6807f1aa8233401e7581329b"
+  }
+}

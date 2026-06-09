@@ -1,0 +1,879 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FRisorseArtificiali%2Flince
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=RisorseArtificiali%2Flince
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "RisorseArtificiali" [ref=e70] [cursor=pointer]:
+            - /url: /RisorseArtificiali
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "lince" [ref=e73] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FRisorseArtificiali%2Flince
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 4" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FRisorseArtificiali%2Flince
+                - img [ref=e82]
+                - text: Fork
+                - generic "4" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FRisorseArtificiali%2Flince
+                - img [ref=e88]
+                - text: Star
+                - generic "11 users starred this repository" [ref=e90]: "11"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 6" [ref=e99] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "6" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests" [ref=e106] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+          - listitem [ref=e110]:
+            - link "Discussions" [ref=e111] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/discussions
+              - img [ref=e112]
+              - generic [ref=e114]: Discussions
+          - listitem [ref=e115]:
+            - link "Actions" [ref=e116] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/actions
+              - img [ref=e117]
+              - generic [ref=e119]: Actions
+          - listitem [ref=e120]:
+            - link "Projects" [ref=e121] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/projects
+              - img [ref=e122]
+              - generic [ref=e124]: Projects
+          - listitem [ref=e125]:
+            - link "Security and quality" [ref=e126] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/security
+              - img [ref=e127]
+              - generic [ref=e129]: Security and quality
+          - listitem [ref=e130]:
+            - link "Insights" [ref=e131] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/pulse
+              - img [ref=e132]
+              - generic [ref=e134]: Insights
+    - generic [ref=e147]:
+      - heading "RisorseArtificiali/lince" [level=1] [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - button "main branch" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e160]:
+                    - img [ref=e162]
+                    - generic [ref=e165]: main
+                  - generic:
+                    - img
+              - generic [ref=e166]:
+                - link "2 Branches" [ref=e167] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/branches
+                  - generic [ref=e168]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]:
+                      - strong [ref=e171]: "2"
+                      - text: Branches
+                - link "1 Tag" [ref=e172] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/tags
+                  - generic [ref=e173]:
+                    - generic:
+                      - img
+                    - generic [ref=e175]:
+                      - strong [ref=e176]: "1"
+                      - text: Tag
+            - generic [ref=e177]:
+              - generic [ref=e181]:
+                - img [ref=e183]
+                - combobox "Go to file" [ref=e185]
+              - button "Code" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]:
+                  - generic:
+                    - img
+                  - generic [ref=e188]: Code
+                  - generic:
+                    - img
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - heading "Folders and files" [level=2] [ref=e191]
+              - table "Folders and files" [ref=e192]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e193]:
+                  - 'row "Latest commit maeste commits by maeste Merge pull request #25 from maeste/deep-PATH-bug Open commit details success Commit c1dd624 · Apr 7, 20264 hours ago History 76 Commits" [ref=e194]':
+                    - 'cell "Latest commit maeste commits by maeste Merge pull request #25 from maeste/deep-PATH-bug Open commit details success Commit c1dd624 · Apr 7, 20264 hours ago History 76 Commits" [ref=e195]':
+                      - generic [ref=e196]:
+                        - heading "Latest commit" [level=2] [ref=e197]
+                        - generic [ref=e198]:
+                          - generic [ref=e200]:
+                            - link "maeste" [ref=e201] [cursor=pointer]:
+                              - /url: /maeste
+                              - img "maeste" [ref=e202]
+                            - link "commits by maeste" [ref=e203] [cursor=pointer]:
+                              - /url: /RisorseArtificiali/lince/commits?author=maeste
+                              - text: maeste
+                          - generic [ref=e204]:
+                            - generic [ref=e206]:
+                              - link "Merge pull request" [ref=e207] [cursor=pointer]:
+                                - /url: /RisorseArtificiali/lince/commit/c1dd624cde605a2ff87dd3ffb60388e4d8f714e6
+                              - link "#25" [ref=e208] [cursor=pointer]:
+                                - /url: https://github.com/RisorseArtificiali/lince/pull/25
+                              - link "from maeste/deep-PATH-bug" [ref=e209] [cursor=pointer]:
+                                - /url: /RisorseArtificiali/lince/commit/c1dd624cde605a2ff87dd3ffb60388e4d8f714e6
+                            - button "Open commit details" [ref=e210] [cursor=pointer]:
+                              - img [ref=e211]
+                            - button "success" [ref=e213] [cursor=pointer]:
+                              - img [ref=e214]
+                        - generic [ref=e216]:
+                          - generic [ref=e218]:
+                            - link "Commit c1dd624" [ref=e219] [cursor=pointer]:
+                              - /url: /RisorseArtificiali/lince/commit/c1dd624cde605a2ff87dd3ffb60388e4d8f714e6
+                              - text: c1dd624
+                            - text: ·
+                            - generic "Apr 7, 2026, 3:55 PM GMT+2" [ref=e220]: Apr 7, 20264 hours ago
+                          - generic [ref=e221]:
+                            - heading "History" [level=2] [ref=e222]
+                            - link "76 Commits" [ref=e223] [cursor=pointer]:
+                              - /url: /RisorseArtificiali/lince/commits/main/
+                              - generic [ref=e224]:
+                                - generic:
+                                  - img
+                                - generic [ref=e225]: 76 Commits
+                  - 'row "backlog, (Directory) Archive obsolete backlog: telebridge, voxtts, agent-ready milestones … Mar 30, 2026last week" [ref=e226]':
+                    - cell "backlog, (Directory)" [ref=e227]:
+                      - generic [ref=e228]:
+                        - img [ref=e229]
+                        - link "backlog, (Directory)" [ref=e234] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/tree/main/backlog
+                          - text: backlog
+                    - 'cell "Archive obsolete backlog: telebridge, voxtts, agent-ready milestones …" [ref=e235]':
+                      - 'link "Archive obsolete backlog: telebridge, voxtts, agent-ready milestones …" [ref=e238] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/b96acb7c98b0bf51abc3f0c090c53d4ea6298b42
+                    - cell "Mar 30, 2026last week" [ref=e239]:
+                      - generic [ref=e240]: Mar 30, 2026last week
+                  - 'row "docs, (Directory) docs: document deep PATH entry auto-detection in sandbox Apr 7, 20264 hours ago" [ref=e241]':
+                    - cell "docs, (Directory)" [ref=e242]:
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - link "docs, (Directory)" [ref=e249] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/tree/main/docs
+                          - text: docs
+                    - 'cell "docs: document deep PATH entry auto-detection in sandbox" [ref=e250]':
+                      - 'link "docs: document deep PATH entry auto-detection in sandbox" [ref=e253] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/7df137d2fc4e25392c86085e3cf070b2822896f8
+                    - cell "Apr 7, 20264 hours ago" [ref=e254]:
+                      - generic [ref=e255]: Apr 7, 20264 hours ago
+                  - row "lince-dashboard, (Directory) docs improvement Apr 3, 20264 days ago" [ref=e256]:
+                    - cell "lince-dashboard, (Directory)" [ref=e257]:
+                      - generic [ref=e258]:
+                        - img [ref=e259]
+                        - link "lince-dashboard, (Directory)" [ref=e264] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/tree/main/lince-dashboard
+                          - text: lince-dashboard
+                    - cell "docs improvement" [ref=e265]:
+                      - link "docs improvement" [ref=e268] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/fa4273ea1f5c78a1865723aa6b997332fa57c7cf
+                    - cell "Apr 3, 20264 days ago" [ref=e269]:
+                      - generic [ref=e270]: Apr 3, 20264 days ago
+                  - 'row "sandbox, (Directory) docs: document deep PATH entry auto-detection in sandbox Apr 7, 20264 hours ago" [ref=e271]':
+                    - cell "sandbox, (Directory)" [ref=e272]:
+                      - generic [ref=e273]:
+                        - img [ref=e274]
+                        - link "sandbox, (Directory)" [ref=e279] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/tree/main/sandbox
+                          - text: sandbox
+                    - 'cell "docs: document deep PATH entry auto-detection in sandbox" [ref=e280]':
+                      - 'link "docs: document deep PATH entry auto-detection in sandbox" [ref=e283] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/7df137d2fc4e25392c86085e3cf070b2822896f8
+                    - cell "Apr 7, 20264 hours ago" [ref=e284]:
+                      - generic [ref=e285]: Apr 7, 20264 hours ago
+                  - row "scripts, (Directory) TUI installer with agent selection, sandbox backend choice, and safet… Mar 31, 2026last week" [ref=e286]:
+                    - cell "scripts, (Directory)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "scripts, (Directory)" [ref=e294] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/tree/main/scripts
+                          - text: scripts
+                    - cell "TUI installer with agent selection, sandbox backend choice, and safet…" [ref=e295]:
+                      - link "TUI installer with agent selection, sandbox backend choice, and safet…" [ref=e298] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/03d1c7fab8463913bf378eecce526cd0c1e8c1fc
+                    - cell "Mar 31, 2026last week" [ref=e299]:
+                      - generic [ref=e300]: Mar 31, 2026last week
+                  - row ".gitignore, (File) implementation of advanced sandbox features. Need test and debug Mar 27, 20262 weeks ago" [ref=e301]:
+                    - cell ".gitignore, (File)" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e304]
+                        - link ".gitignore, (File)" [ref=e309] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "implementation of advanced sandbox features. Need test and debug" [ref=e310]:
+                      - link "implementation of advanced sandbox features. Need test and debug" [ref=e313] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/55e34d80989e9c8b3440b1c91bdad0c66408532a
+                    - cell "Mar 27, 20262 weeks ago" [ref=e314]:
+                      - generic [ref=e315]: Mar 27, 20262 weeks ago
+                  - 'row "CLAUDE.md, (File) Split monorepo: remove extracted modules, absorb zellij-setup into da… Mar 30, 2026last week" [ref=e316]':
+                    - cell "CLAUDE.md, (File)" [ref=e317]:
+                      - generic [ref=e318]:
+                        - img [ref=e319]
+                        - link "CLAUDE.md, (File)" [ref=e324] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - 'cell "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e325]':
+                      - 'link "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e328] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/0a86a1d2b8db18796224a88ec531c4cc2e074785
+                    - cell "Mar 30, 2026last week" [ref=e329]:
+                      - generic [ref=e330]: Mar 30, 2026last week
+                  - 'row "CONTRIBUTING.md, (File) Split monorepo: remove extracted modules, absorb zellij-setup into da… Mar 30, 2026last week" [ref=e331]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e332]:
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - link "CONTRIBUTING.md, (File)" [ref=e339] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e340]':
+                      - 'link "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e343] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/0a86a1d2b8db18796224a88ec531c4cc2e074785
+                    - cell "Mar 30, 2026last week" [ref=e344]:
+                      - generic [ref=e345]: Mar 30, 2026last week
+                  - row "LICENSE, (File) Initial commit Mar 2, 2026last month" [ref=e346]:
+                    - cell "LICENSE, (File)" [ref=e347]:
+                      - generic [ref=e348]:
+                        - img [ref=e349]
+                        - link "LICENSE, (File)" [ref=e354] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Initial commit" [ref=e355]:
+                      - link "Initial commit" [ref=e358] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/43be3c72da8b907bbe1c32b03d794309221fa49e
+                    - cell "Mar 2, 2026last month" [ref=e359]:
+                      - generic [ref=e360]: Mar 2, 2026last month
+                  - 'row "QUICKSTART.md, (File) Split monorepo: remove extracted modules, absorb zellij-setup into da… Mar 30, 2026last week" [ref=e361]':
+                    - cell "QUICKSTART.md, (File)" [ref=e362]:
+                      - generic [ref=e363]:
+                        - img [ref=e364]
+                        - link "QUICKSTART.md, (File)" [ref=e369] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/QUICKSTART.md
+                          - text: QUICKSTART.md
+                    - 'cell "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e370]':
+                      - 'link "Split monorepo: remove extracted modules, absorb zellij-setup into da…" [ref=e373] [cursor=pointer]':
+                        - /url: /RisorseArtificiali/lince/commit/0a86a1d2b8db18796224a88ec531c4cc2e074785
+                    - cell "Mar 30, 2026last week" [ref=e374]:
+                      - generic [ref=e375]: Mar 30, 2026last week
+                  - row "README.md, (File) docs improvement Apr 3, 20264 days ago" [ref=e376]:
+                    - cell "README.md, (File)" [ref=e377]:
+                      - generic [ref=e378]:
+                        - img [ref=e379]
+                        - link "README.md, (File)" [ref=e384] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/README.md
+                          - text: README.md
+                    - cell "docs improvement" [ref=e385]:
+                      - link "docs improvement" [ref=e388] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/fa4273ea1f5c78a1865723aa6b997332fa57c7cf
+                    - cell "Apr 3, 20264 days ago" [ref=e389]:
+                      - generic [ref=e390]: Apr 3, 20264 days ago
+                  - row "demo.gif, (File) updating demo Mar 21, 20262 weeks ago" [ref=e391]:
+                    - cell "demo.gif, (File)" [ref=e392]:
+                      - generic [ref=e393]:
+                        - img [ref=e394]
+                        - link "demo.gif, (File)" [ref=e399] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/demo.gif
+                          - text: demo.gif
+                    - cell "updating demo" [ref=e400]:
+                      - link "updating demo" [ref=e403] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/9082dafd7042f8b49df06ff034c22e99823bdcfc
+                    - cell "Mar 21, 20262 weeks ago" [ref=e404]:
+                      - generic [ref=e405]: Mar 21, 20262 weeks ago
+                  - row "demo.webm, (File) updating demo Mar 21, 20262 weeks ago" [ref=e406]:
+                    - cell "demo.webm, (File)" [ref=e407]:
+                      - generic [ref=e408]:
+                        - img [ref=e409]
+                        - link "demo.webm, (File)" [ref=e414] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/demo.webm
+                          - text: demo.webm
+                    - cell "updating demo" [ref=e415]:
+                      - link "updating demo" [ref=e418] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/9082dafd7042f8b49df06ff034c22e99823bdcfc
+                    - cell "Mar 21, 20262 weeks ago" [ref=e419]:
+                      - generic [ref=e420]: Mar 21, 20262 weeks ago
+                  - row "grant-plugin-permissions.sh, (File) fixing permissions on mac Apr 2, 20265 days ago" [ref=e421]:
+                    - cell "grant-plugin-permissions.sh, (File)" [ref=e422]:
+                      - generic [ref=e423]:
+                        - img [ref=e424]
+                        - link "grant-plugin-permissions.sh, (File)" [ref=e429] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/grant-plugin-permissions.sh
+                          - text: grant-plugin-permissions.sh
+                    - cell "fixing permissions on mac" [ref=e430]:
+                      - link "fixing permissions on mac" [ref=e433] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/b6a083856143308affa2a2e14fd2d25129aff8bd
+                    - cell "Apr 2, 20265 days ago" [ref=e434]:
+                      - generic [ref=e435]: Apr 2, 20265 days ago
+                  - row "prompt-quickstart-improvements.md, (File) moving website as part of this repo and a few fixes for mac Apr 2, 20265 days ago" [ref=e436]:
+                    - cell "prompt-quickstart-improvements.md, (File)" [ref=e437]:
+                      - generic [ref=e438]:
+                        - img [ref=e439]
+                        - link "prompt-quickstart-improvements.md, (File)" [ref=e444] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/prompt-quickstart-improvements.md
+                          - text: prompt-quickstart-improvements.md
+                    - cell "moving website as part of this repo and a few fixes for mac" [ref=e445]:
+                      - link "moving website as part of this repo and a few fixes for mac" [ref=e448] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/b8eb8f5b12c4eca624aa769bca8ee37eb273cc16
+                    - cell "Apr 2, 20265 days ago" [ref=e449]:
+                      - generic [ref=e450]: Apr 2, 20265 days ago
+                  - row "quickstart.sh, (File) clean-up of temp dirs Apr 2, 20265 days ago" [ref=e451]:
+                    - cell "quickstart.sh, (File)" [ref=e452]:
+                      - generic [ref=e453]:
+                        - img [ref=e454]
+                        - link "quickstart.sh, (File)" [ref=e459] [cursor=pointer]:
+                          - /url: /RisorseArtificiali/lince/blob/main/quickstart.sh
+                          - text: quickstart.sh
+                    - cell "clean-up of temp dirs" [ref=e460]:
+                      - link "clean-up of temp dirs" [ref=e463] [cursor=pointer]:
+                        - /url: /RisorseArtificiali/lince/commit/7b2419dd25de1f735427cc65385dacca95752d35
+                    - cell "Apr 2, 20265 days ago" [ref=e464]:
+                      - generic [ref=e465]: Apr 2, 20265 days ago
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - heading "Repository files navigation" [level=2] [ref=e469]
+                - navigation "Repository files" [ref=e470]:
+                  - list [ref=e471]:
+                    - listitem [ref=e472]:
+                      - link "README" [ref=e473] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e475]
+                        - generic [ref=e477]: README
+                    - listitem [ref=e478]:
+                      - link "Contributing" [ref=e479] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e481]
+                        - generic [ref=e483]: Contributing
+                    - listitem [ref=e484]:
+                      - link "MIT license" [ref=e485] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e487]
+                        - generic [ref=e489]: MIT license
+                - button "Outline" [ref=e490] [cursor=pointer]:
+                  - img [ref=e491]
+              - article [ref=e494]:
+                - generic [ref=e495]:
+                  - heading "LINCE" [level=1] [ref=e496]
+                  - 'link "Permalink: LINCE" [ref=e497] [cursor=pointer]':
+                    - /url: "#lince"
+                    - img [ref=e498]
+                - paragraph [ref=e500]:
+                  - strong [ref=e501]: Linux Intelligent Native Coding Environment
+                  - text: —
+                  - link "lince.sh" [ref=e502] [cursor=pointer]:
+                    - /url: https://lince.sh
+                - paragraph [ref=e503]: A toolkit that turns your terminal into a multi-agent engineering workstation — spawn parallel AI coding agents, track their status in real time, relay voice commands, all from a single TUI dashboard running in Zellij.
+                - generic [ref=e504]:
+                  - heading "Demo" [level=2] [ref=e505]
+                  - 'link "Permalink: Demo" [ref=e506] [cursor=pointer]':
+                    - /url: "#demo"
+                    - img [ref=e507]
+                - paragraph [ref=e509]:
+                  - link "LINCE demo" [ref=e511] [cursor=pointer]:
+                    - /url: /RisorseArtificiali/lince/blob/main/demo.gif
+                    - img "LINCE demo" [ref=e512]
+                - blockquote [ref=e513]:
+                  - paragraph [ref=e514]: "The full workflow: voice command → Whisper transcription → Claude Code executes in sandbox → backlog updates — all from one terminal."
+                - generic [ref=e515]:
+                  - heading "The Dashboard" [level=2] [ref=e516]
+                  - 'link "Permalink: The Dashboard" [ref=e517] [cursor=pointer]':
+                    - /url: "#the-dashboard"
+                    - img [ref=e518]
+                - paragraph [ref=e520]:
+                  - text: The primary way to use LINCE is the
+                  - strong [ref=e521]: TUI Dashboard
+                  - text: — a Zellij WASM plugin that acts as a command center for multiple Claude Code agents.
+                - generic [ref=e522]:
+                  - code [ref=e524]: "┌─────────────────────────────────────────────────────────┐ │ LINCE Dashboard │ │ ┌───┬────────────┬──────────┬────────┬────────┬───────┐ │ │ │ # │ Name │ Status │ Tokens │Profile │Project│ │ │ ├───┼────────────┼──────────┼────────┼────────┼───────┤ │ │ │ 1 │ backend │ Running │ 1.2k/5k│ vertex │ api/ │ │ │ │>2 │ frontend │ INPUT │ - │ │ web/ │ │ │ │ 3 │ tester │ Idle │ 3k/12k │ zai │ tests/│ │ │ └───┴────────────┴──────────┴────────┴────────┴───────┘ │ ├───────────────────────┬─────────────────────────────────┤ │ │ │ │ VoxCode │ Shell │ │ Voice input → │ │ │ relayed to agents │ │ │ │ │ └───────────────────────┴─────────────────────────────────┘"
+                  - button "Copy" [ref=e526] [cursor=pointer]:
+                    - img [ref=e527]
+                - paragraph [ref=e530]: "What the dashboard gives you:"
+                - list [ref=e531]:
+                  - listitem [ref=e532]:
+                    - strong [ref=e533]: Multi-agent
+                    - text: ": Spawn up to 8 AI coding agents in parallel (Claude Code, Codex, Gemini, OpenCode, Aider, and any custom agent), each in its own sandboxed pane"
+                  - listitem [ref=e534]:
+                    - strong [ref=e535]: Real-time status
+                    - text: ": See at a glance which agents are running, waiting for input, or idle — color-coded with token usage"
+                  - listitem [ref=e536]:
+                    - strong [ref=e537]: Pane control
+                    - text: ": Show/hide agent panes with a keystroke ("
+                    - code [ref=e538]: f
+                    - text: to focus,
+                    - code [ref=e539]: h
+                    - text: to hide)
+                  - listitem [ref=e540]:
+                    - strong [ref=e541]: Voice relay
+                    - text: ": VoxCode transcriptions are piped directly to the focused agent"
+                  - listitem [ref=e542]:
+                    - strong [ref=e543]: Session persistence
+                    - text: ": Save/restore your agent constellation across sessions ("
+                    - code [ref=e544]: Q
+                    - text: to save & quit)
+                  - listitem [ref=e545]:
+                    - strong [ref=e546]: Swimlane grouping
+                    - text: ": Agents auto-grouped by project directory when working across repos"
+                  - listitem [ref=e547]:
+                    - strong [ref=e548]: Sandbox isolation
+                    - text: ": Every agent runs inside"
+                    - link "agent-sandbox" [ref=e549] [cursor=pointer]:
+                      - /url: /RisorseArtificiali/lince/blob/main/sandbox
+                    - text: — full autonomy, zero host risk
+                - generic [ref=e550]:
+                  - heading "Quick Start" [level=2] [ref=e551]
+                  - 'link "Permalink: Quick Start" [ref=e552] [cursor=pointer]':
+                    - /url: "#quick-start"
+                    - img [ref=e553]
+                - paragraph [ref=e555]:
+                  - text: For a detailed step-by-step guide with scenarios (Mini/Full/Custom), troubleshooting, and quick reference, see
+                  - link "QUICKSTART.md" [ref=e556] [cursor=pointer]:
+                    - /url: /RisorseArtificiali/lince/blob/main/QUICKSTART.md
+                  - text: .
+                - generic [ref=e557]:
+                  - heading "Prerequisites" [level=3] [ref=e558]
+                  - 'link "Permalink: Prerequisites" [ref=e559] [cursor=pointer]':
+                    - /url: "#prerequisites"
+                    - img [ref=e560]
+                - list [ref=e562]:
+                  - listitem [ref=e563]:
+                    - strong [ref=e564]: Linux
+                    - text: (tested on Fedora 43, works on Ubuntu/Debian/Arch)
+                  - listitem [ref=e565]:
+                    - strong [ref=e566]: Zellij
+                    - text: ">= 0.40"
+                  - listitem [ref=e567]:
+                    - strong [ref=e568]: Claude Code
+                    - text: (
+                    - code [ref=e569]: npm install -g @anthropic-ai/claude-code
+                    - text: )
+                  - listitem [ref=e570]:
+                    - strong [ref=e571]: bubblewrap
+                    - text: (
+                    - code [ref=e572]: sudo dnf install bubblewrap
+                    - text: /
+                    - code [ref=e573]: sudo apt install bubblewrap
+                    - text: )
+                  - listitem [ref=e574]:
+                    - strong [ref=e575]: Rust
+                    - text: with
+                    - code [ref=e576]: wasm32-wasip1
+                    - text: target (for building the dashboard plugin)
+                  - listitem [ref=e577]:
+                    - strong [ref=e578]: macOS
+                    - text: "(experimental):"
+                    - strong [ref=e579]: nono
+                    - text: sandbox backend (
+                    - code [ref=e580]: brew install nono
+                    - text: ), Python 3.11+, Zellij
+                - generic [ref=e581]:
+                  - 'heading "Step 1: Install the sandbox" [level=3] [ref=e582]'
+                  - 'link "Permalink: Step 1: Install the sandbox" [ref=e583] [cursor=pointer]':
+                    - /url: "#step-1-install-the-sandbox"
+                    - img [ref=e584]
+                - generic [ref=e586]:
+                  - generic [ref=e587]: cd sandbox ./install.sh
+                  - button "Copy" [ref=e589] [cursor=pointer]:
+                    - img [ref=e590]
+                - paragraph [ref=e593]:
+                  - text: This creates an isolated environment where Claude has full write access to your project but physically cannot reach your SSH keys, cloud credentials, or anything outside the project directory. See
+                  - link "sandbox/README.md" [ref=e594] [cursor=pointer]:
+                    - /url: /RisorseArtificiali/lince/blob/main/sandbox/README.md
+                  - text: for the full configuration reference.
+                - generic [ref=e595]:
+                  - 'heading "Step 2: Install the dashboard" [level=3] [ref=e596]'
+                  - 'link "Permalink: Step 2: Install the dashboard" [ref=e597] [cursor=pointer]':
+                    - /url: "#step-2-install-the-dashboard"
+                    - img [ref=e598]
+                - generic [ref=e600]:
+                  - generic [ref=e601]: cd lince-dashboard ./install.sh
+                  - button "Copy" [ref=e603] [cursor=pointer]:
+                    - img [ref=e604]
+                - paragraph [ref=e607]:
+                  - text: The installer builds the WASM plugin, copies it to
+                  - code [ref=e608]: ~/.config/zellij/plugins/
+                  - text: ", installs Zellij layouts, sets up Claude Code status hooks, and creates the"
+                  - code [ref=e609]: zd
+                  - text: "shell alias. After sourcing your shell config:"
+                - generic [ref=e610]:
+                  - generic [ref=e611]:
+                    - text: source ~/.bashrc zd
+                    - generic [ref=e612]: "# launch the dashboard"
+                  - button "Copy" [ref=e614] [cursor=pointer]:
+                    - img [ref=e615]
+                - generic [ref=e618]:
+                  - 'heading "Step 3: Launch" [level=3] [ref=e619]'
+                  - 'link "Permalink: Step 3: Launch" [ref=e620] [cursor=pointer]':
+                    - /url: "#step-3-launch"
+                    - img [ref=e621]
+                - generic [ref=e623]:
+                  - generic [ref=e624]: zd
+                  - button "Copy" [ref=e626] [cursor=pointer]:
+                    - img [ref=e627]
+                - paragraph [ref=e630]:
+                  - text: Press
+                  - code [ref=e631]: "n"
+                  - text: to spawn an agent (quick), or
+                  - code [ref=e632]: "N"
+                  - text: for the full wizard (name, sandbox profile, project directory). Press
+                  - code [ref=e633]: "?"
+                  - text: for the full keybindings overlay.
+                - generic [ref=e634]:
+                  - 'heading "Alternative: Use the Quickstart Installer" [level=3] [ref=e635]'
+                  - 'link "Permalink: Alternative: Use the Quickstart Installer" [ref=e636] [cursor=pointer]':
+                    - /url: "#alternative-use-the-quickstart-installer"
+                    - img [ref=e637]
+                - paragraph [ref=e639]: "For an interactive installer that handles all modules with dependency resolution:"
+                - generic [ref=e640]:
+                  - generic [ref=e641]: ./quickstart.sh
+                  - button "Copy" [ref=e643] [cursor=pointer]:
+                    - img [ref=e644]
+                - paragraph [ref=e647]:
+                  - text: See
+                  - link "QUICKSTART.md" [ref=e648] [cursor=pointer]:
+                    - /url: /RisorseArtificiali/lince/blob/main/QUICKSTART.md
+                  - text: for more options (--mini, --full, --yes flags).
+                - generic [ref=e649]:
+                  - heading "The Workflow in Practice" [level=3] [ref=e650]
+                  - 'link "Permalink: The Workflow in Practice" [ref=e651] [cursor=pointer]':
+                    - /url: "#the-workflow-in-practice"
+                    - img [ref=e652]
+                - generic [ref=e654]:
+                  - code [ref=e656]: "You (speaking): \"Pick up the next task from the backlog and start working on it\" │ ▼ VoxCode: Whisper transcribes locally → pipes text to dashboard │ ▼ Dashboard: Routes text to focused/selected agent │ ▼ Claude Code: Reads the backlog via MCP → picks a task → marks it in-progress → writes code → runs tests │ ▼ Dashboard: Status updates in real-time (Running → INPUT → Idle) Token usage tracked, tool names shown in detail panel"
+                  - button "Copy" [ref=e658] [cursor=pointer]:
+                    - img [ref=e659]
+                - generic [ref=e662]:
+                  - heading "Modules" [level=2] [ref=e663]
+                  - 'link "Permalink: Modules" [ref=e664] [cursor=pointer]':
+                    - /url: "#modules"
+                    - img [ref=e665]
+                - generic [ref=e667]:
+                  - heading "lince-dashboard/" [level=3] [ref=e668]:
+                    - link "lince-dashboard/" [ref=e669] [cursor=pointer]:
+                      - /url: /RisorseArtificiali/lince/blob/main/lince-dashboard
+                  - 'link "Permalink: lince-dashboard/" [ref=e670] [cursor=pointer]':
+                    - /url: "#lince-dashboard"
+                    - img [ref=e671]
+                - paragraph [ref=e673]:
+                  - text: The multi-agent TUI dashboard — a Zellij WASM plugin (Rust, ~900 KB) that manages multiple AI coding agents (Claude Code, Codex, Gemini, OpenCode, and any custom agent). Spawn agents, monitor status, show/hide panes, relay voice input, persist sessions. Agent types are fully config-driven — add new agents via TOML or use the
+                  - code [ref=e674]: /lince-setup
+                  - text: skill. See
+                  - link "lince-dashboard/README.md" [ref=e675] [cursor=pointer]:
+                    - /url: /RisorseArtificiali/lince/blob/main/lince-dashboard/README.md
+                  - text: .
+                - paragraph [ref=e676]:
+                  - text: "Documentation:"
+                  - link "Usage Guide" [ref=e677] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/dashboard/usage-guide
+                  - text: "|"
+                  - link "Configuration" [ref=e678] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/dashboard/config-reference
+                  - text: "|"
+                  - link "Agent Examples" [ref=e679] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/dashboard/agent-examples
+                - generic [ref=e680]:
+                  - heading "sandbox/" [level=3] [ref=e681]:
+                    - link "sandbox/" [ref=e682] [cursor=pointer]:
+                      - /url: /RisorseArtificiali/lince/blob/main/sandbox
+                  - 'link "Permalink: sandbox/" [ref=e683] [cursor=pointer]':
+                    - /url: "#sandbox"
+                    - img [ref=e684]
+                - paragraph [ref=e686]:
+                  - text: Bubblewrap-based sandbox for running AI coding agents safely. Restricts filesystem access, blocks git push, isolates environment variables, and hides host processes — with near-zero overhead. Supports any agent via
+                  - code [ref=e687]: "--agent"
+                  - text: flag (
+                  - code [ref=e688]: agent-sandbox run -a codex
+                  - text: ","
+                  - code [ref=e689]: "-a gemini"
+                  - text: ", etc.). Used by the dashboard to spawn every agent."
+                - paragraph [ref=e690]:
+                  - text: "Documentation:"
+                  - link "CLI Reference" [ref=e691] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/sandbox/cli-reference
+                  - text: "|"
+                  - link "Configuration" [ref=e692] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/sandbox/config-reference
+                  - text: "|"
+                  - link "Security Model" [ref=e693] [cursor=pointer]:
+                    - /url: https://lince.sh/documentation/#/sandbox/security-model
+                - generic [ref=e694]:
+                  - heading "/lince-setup skill (bundled with lince-dashboard)" [level=3] [ref=e695]:
+                    - code [ref=e696]: /lince-setup
+                    - text: skill (bundled with lince-dashboard)
+                  - 'link "Permalink: /lince-setup skill (bundled with lince-dashboard)" [ref=e697] [cursor=pointer]':
+                    - /url: "#lince-setup-skill-bundled-with-lince-dashboard"
+                    - img [ref=e698]
+                - paragraph [ref=e700]:
+                  - text: An
+                  - link "agentskills.io" [ref=e701] [cursor=pointer]:
+                    - /url: https://agentskills.io
+                  - text: "-compliant skill that lets any AI coding agent register itself with the lince ecosystem. Generates correct TOML configuration for both agent-sandbox and lince-dashboard. Installed automatically by"
+                  - code [ref=e702]: lince-dashboard/install.sh
+                  - text: .
+                - generic [ref=e703]:
+                  - heading "Related Projects" [level=2] [ref=e704]
+                  - 'link "Permalink: Related Projects" [ref=e705] [cursor=pointer]':
+                    - /url: "#related-projects"
+                    - img [ref=e706]
+                - table [ref=e709]:
+                  - rowgroup [ref=e710]:
+                    - row "Project Description" [ref=e711]:
+                      - columnheader "Project" [ref=e712]
+                      - columnheader "Description" [ref=e713]
+                  - rowgroup [ref=e714]:
+                    - row "VoxCode Voice input for AI agents — local Whisper transcription, integrates with the dashboard via Zellij pipes" [ref=e715]:
+                      - cell "VoxCode" [ref=e716]:
+                        - link "VoxCode" [ref=e717] [cursor=pointer]:
+                          - /url: https://github.com/RisorseArtificiali/voxcode
+                      - cell "Voice input for AI agents — local Whisper transcription, integrates with the dashboard via Zellij pipes" [ref=e718]
+                    - row "VoxTTS Text-to-Speech with local GPU/CPU engines (Kokoro, Piper)" [ref=e719]:
+                      - cell "VoxTTS" [ref=e720]:
+                        - link "VoxTTS" [ref=e721] [cursor=pointer]:
+                          - /url: https://github.com/RisorseArtificiali/voxtts
+                      - cell "Text-to-Speech with local GPU/CPU engines (Kokoro, Piper)" [ref=e722]
+                    - row "Agent Ready Skill Assess any project's readiness for agentic coding (agentskills.io)" [ref=e723]:
+                      - cell "Agent Ready Skill" [ref=e724]:
+                        - link "Agent Ready Skill" [ref=e725] [cursor=pointer]:
+                          - /url: https://github.com/RisorseArtificiali/agent-ready-skill
+                      - cell "Assess any project's readiness for agentic coding (agentskills.io)" [ref=e726]
+                - generic [ref=e727]:
+                  - heading "License" [level=2] [ref=e728]
+                  - 'link "Permalink: License" [ref=e729] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e730]
+                - paragraph [ref=e732]: MIT
+        - generic [ref=e736]:
+          - generic [ref=e739]:
+            - heading "About" [level=2] [ref=e740]
+            - paragraph [ref=e741]: Lince - Linux Intelligent Native Coding Environment
+            - heading "Resources" [level=3] [ref=e742]
+            - link "Readme" [ref=e744] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e745]
+              - text: Readme
+            - heading "License" [level=3] [ref=e747]
+            - link "MIT license" [ref=e749] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e750]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e752]
+            - link "Contributing" [ref=e754] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e755]
+              - text: Contributing
+            - link "Activity" [ref=e758] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/activity
+              - img [ref=e759]
+              - text: Activity
+            - link "Custom properties" [ref=e762] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/custom-properties
+              - img [ref=e763]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e765]
+            - link "11 stars" [ref=e767] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/stargazers
+              - img [ref=e768]
+              - strong [ref=e770]: "11"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e771]
+            - link "0 watching" [ref=e773] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/watchers
+              - img [ref=e774]
+              - strong [ref=e776]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e777]
+            - link "4 forks" [ref=e779] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/forks
+              - img [ref=e780]
+              - strong [ref=e782]: "4"
+              - text: forks
+            - link "Report repository" [ref=e784] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FRisorseArtificiali%2Flince&report=RisorseArtificiali+%28user%29
+          - generic [ref=e786]:
+            - heading "Releases" [level=2] [ref=e787]:
+              - link "Releases" [ref=e788] [cursor=pointer]:
+                - /url: /RisorseArtificiali/lince/releases
+            - link "1 tags" [ref=e789] [cursor=pointer]:
+              - /url: /RisorseArtificiali/lince/tags
+              - img [ref=e790]
+              - text: 1 tags
+          - generic [ref=e793]:
+            - heading "Packages" [level=2] [ref=e794]:
+              - link "Packages" [ref=e795] [cursor=pointer]:
+                - /url: /orgs/RisorseArtificiali/packages?repo_name=lince
+            - generic [ref=e796]: No packages published
+          - generic [ref=e798]:
+            - heading "Contributors 4" [level=2] [ref=e799]:
+              - link "Contributors 4" [ref=e800] [cursor=pointer]:
+                - /url: /RisorseArtificiali/lince/graphs/contributors
+                - text: Contributors
+                - generic "4" [ref=e801]
+            - list [ref=e802]:
+              - listitem [ref=e803]:
+                - link "@maeste" [ref=e804] [cursor=pointer]:
+                  - /url: https://github.com/maeste
+                  - img "@maeste" [ref=e805]
+                - link "maeste Stefano Maestri" [ref=e807] [cursor=pointer]:
+                  - /url: https://github.com/maeste
+                  - strong [ref=e808]: maeste
+                  - text: Stefano Maestri
+              - listitem [ref=e809]:
+                - link "@claude" [ref=e810] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e811]
+                - link "claude Claude" [ref=e813] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - strong [ref=e814]: claude
+                  - text: Claude
+              - listitem [ref=e815]:
+                - link "@asoldano" [ref=e816] [cursor=pointer]:
+                  - /url: https://github.com/asoldano
+                  - img "@asoldano" [ref=e817]
+                - link "asoldano Alessio Soldano" [ref=e819] [cursor=pointer]:
+                  - /url: https://github.com/asoldano
+                  - strong [ref=e820]: asoldano
+                  - text: Alessio Soldano
+              - listitem [ref=e821]:
+                - link "@paoloantinori" [ref=e822] [cursor=pointer]:
+                  - /url: https://github.com/paoloantinori
+                  - img "@paoloantinori" [ref=e823]
+                - link "paoloantinori Paolo Antinori" [ref=e825] [cursor=pointer]:
+                  - /url: https://github.com/paoloantinori
+                  - strong [ref=e826]: paoloantinori
+                  - text: Paolo Antinori
+          - generic [ref=e828]:
+            - heading "Languages" [level=2] [ref=e829]
+            - list [ref=e836]:
+              - listitem [ref=e837]:
+                - link "Python 37.0%" [ref=e838] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/search?l=python
+                  - img [ref=e839]
+                  - generic [ref=e841]: Python
+                  - generic [ref=e842]: 37.0%
+              - listitem [ref=e843]:
+                - link "Rust 31.9%" [ref=e844] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/search?l=rust
+                  - img [ref=e845]
+                  - generic [ref=e847]: Rust
+                  - generic [ref=e848]: 31.9%
+              - listitem [ref=e849]:
+                - link "Shell 30.3%" [ref=e850] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/search?l=shell
+                  - img [ref=e851]
+                  - generic [ref=e853]: Shell
+                  - generic [ref=e854]: 30.3%
+              - listitem [ref=e855]:
+                - link "JavaScript 0.8%" [ref=e856] [cursor=pointer]:
+                  - /url: /RisorseArtificiali/lince/search?l=javascript
+                  - img [ref=e857]
+                  - generic [ref=e859]: JavaScript
+                  - generic [ref=e860]: 0.8%
+  - contentinfo [ref=e862]:
+    - heading "Footer" [level=2] [ref=e863]
+    - generic [ref=e864]:
+      - generic [ref=e865]:
+        - link "GitHub Homepage" [ref=e866] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e867]
+        - generic [ref=e869]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e870]:
+        - heading "Footer navigation" [level=3] [ref=e871]
+        - list "Footer navigation" [ref=e872]:
+          - listitem [ref=e873]:
+            - link "Terms" [ref=e874] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e875]:
+            - link "Privacy" [ref=e876] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e877]:
+            - link "Security" [ref=e878] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e879]:
+            - link "Status" [ref=e880] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e881]:
+            - link "Community" [ref=e882] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e883]:
+            - link "Docs" [ref=e884] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e885]:
+            - link "Contact" [ref=e886] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e887]:
+            - button "Manage cookies" [ref=e889] [cursor=pointer]
+          - listitem [ref=e890]:
+            - button "Do not share my personal information" [ref=e892] [cursor=pointer]

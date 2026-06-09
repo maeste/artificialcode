@@ -58,6 +58,14 @@ Possible main questions:
 
 **Important**: Always make Block 1 about identity/journey and final block about future/actions. Wait for user approval before proceeding.
 
+## Standard Icebreaker
+
+Every interview MUST open with this standard icebreaker question before Block 1:
+
+**"Quale è o quale è stato il tuo giocattolo preferito?"**
+
+This question is universal, disarming, and reveals personality. It goes in the **Premessa** section of the briefing as the opening icebreaker. Do NOT replace it with interview-specific icebreakers — those can be used as warm-up for Block 1 instead.
+
 ### Step 5: Generate Complete Briefing
 
 Once structure is approved, generate the full briefing following the template structure in `references/template.md`.

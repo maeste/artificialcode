@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newsletter/en/CY26W10.md",
+                "file": "interviste/briefing-domenico-gagliardi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CY26W10"
+              "title": "briefing-domenico-gagliardi"
+            }
+          },
+          {
+            "id": "90030e8c19a30aa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "newsletter/it/CY26W21-it.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CY26W21-it"
+            }
+          },
+          {
+            "id": "4664da8f7d6e6352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "newsletter/it/CY26W23-it.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CY26W23-it"
+            }
+          },
+          {
+            "id": "5e07f75880eaf689",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "thisweek_links_clean.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "thisweek_links_clean"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,45 +223,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "329bca55de832338",
+  "active": "4664da8f7d6e6352",
   "lastOpenFiles": [
-    "newsletter/it/CY26W10-it.md",
-    "config",
-    "hooks",
-    "refs",
-    "objects",
-    "HEAD",
-    "newsletter/en/CY26W10.md",
-    "newsletter/en/CY26W10.md.tmp.1302753.1773002163913",
-    "newsletter/it/CY26W10-it.md.tmp.1302753.1773001808555",
-    "newsletter/it/CY26W10-it.md.tmp.2.1773001539567",
-    "newsletter/it/CY26W9-it.md",
-    "thisweek_links_clean.md",
-    "newsletter/it/CY26W10-it.md.tmp.2.1773001050728",
-    "newsletter/it/CY26W10-it.md.tmp.2.1773000680477",
+    "newsletter/en/CY26W23.md",
+    "newsletter/it/CY26W23-it.md",
+    "deepdive.md",
+    "newsletter/en/CY26W23.md.tmp.2.7f3bc016822b",
+    "newsletter/it/CY26W23-it.md.tmp.2.63766ca287ca",
+    "newsletter/it/CY26W23-it.md.tmp.2.08e3abe4e109",
+    "Agenda.md",
     "thisweek_links.md",
-    "newsletter/en/CY26W9.md",
-    "newsletter/it/CY26W8-it.md",
-    "newsletter/en/CY26W8.md",
-    "risorse_clean.md",
-    "interviste/briefing_gabriele_venturi.md",
-    "newsletter/en/CY26W7.md",
-    "interviste/README_transcript_extraction.md",
-    "interviste/venturi_briefing_structure_proposal.md",
-    "interviste/venturi_linkedin.md",
-    "interviste/lombardini_linkedin.md",
-    "interviste/MIZIO RATTI.md",
-    "newsletter/it/CY26W7-it.md",
-    "newsletter/it/CY26W6-it.md",
-    "interviste/briefing_panel_ai_pubblicita_90min.md",
-    "newsletter/en/CY26W3.md",
-    "newsletter/en/CY26W6.md",
-    "claudedocs/briefing_panel_ai_pubblicita_90min.md",
-    "claudedocs/briefing_panel_ai_pubblicita.md",
-    "lombardini_linkedin.md",
-    "MIZIO RATTI.md"
+    "thisweek_links_clean.md.tmp.2.4662b8f739dc",
+    "grande_puffo.jpg",
+    "newsletter/it/CY26W22-it.md",
+    "newsletter/en/CY26W22.md",
+    "newsletter/en/CY26W22.md.tmp.2.a215813ce9eb",
+    "newsletter/en/CY26W22.md.tmp.2.982180f8fe4b",
+    "newsletter/it/CY26W22-it.md.tmp.2.fcd2fe2cee26",
+    "newsletter/it/CY26W22-it.md.tmp.2.3a49dc429ae9",
+    "newsletter/it/CY26W21-it.md",
+    "thisweek_links_clean.md.tmp.2.c1775593da33",
+    "newsletter/en/CY26W21.md",
+    "newsletter/en/CY26W21.md.tmp.2.e15bcb2062a1",
+    "newsletter/it/CY26W20-it.md",
+    "newsletter/en/CY26W20.md",
+    "pycon2026-ai-readiness-workshop.md",
+    "newsletter/it/CY26W19-it.md",
+    "newsletter/en/CY26W19.md",
+    "thisweek_links_clean.md",
+    "newsletter/it/CY26W18-it.md",
+    "newsletter/en/CY26W18.md",
+    "interviste/briefing-domenico-gagliardi.md",
+    "newsletter/it/CY26W17-it.md",
+    "newsletter/en/CY26W17.md",
+    "newsletter/it/CY26W16-it.md",
+    "extraction.md",
+    "social/campaign-CY26W16-pending.md",
+    "social/media/research-wiki-graph.png",
+    "social/campaign-CY26W16.md",
+    "inbox.md",
+    "newsletter/en/CY26W16.md",
+    "social/media/newsletter-it-preview.png",
+    "social/media/newsletter-en-preview.png",
+    "social/media/dashboard-full.png",
+    "social/media/dashboard-detail.png",
+    "social/media/lince-demo.gif",
+    "social/media/lince-readme-top.png",
+    "social/media/lince-github-repo.png",
+    "social/media/lince-sandbox.png"
   ]
 }
