@@ -2,11 +2,11 @@
 ### La mia agenda
 
 [Podcast](https://risorseartificiali.com):
-  * Sabato è uscita la 55 di Risorse Artificiali, "Workflow dinamici: l'AI che si scrive gli harness": con Opus 4.8 ogni agente si genera al volo il proprio tool custom in JavaScript, e parliamo di cosa significa per sicurezza e sandboxing. Ascolta: https://www.youtube.com/watch?v=A7y6dQdqaIo?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep55_drop
-  * Nella stessa puntata: perché i benchmark non sono comparabili (conta l'harness, non solo il modello), Minimax M3 e l'intervista di Hassabis col doppiaggio automatico di YouTube.
+  *  Nuova intervista: Roberto Stagi (Ratel AI) spiega perché il contesto degli agenti non si satura per colpa degli MCP server, ma perché l'indice dei tool resta nel modello. Open source, benchmark aperti: https://youtu.be/DGWXwzw2ZoY?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=stagi_drop
+- Dentro c'è anche la "agent anxiety": l'ansia di non avere un agente al lavoro mentre sei a pranzo al mare. Più comune di quanto ammettiamo.
+- Sabato è uscito "Scrivere codice è una commodity: Fable e i workflow", dove Stefano dà a Fable un task multilinguaggio e lo porta a casa in una notte con 40 agenti in parallelo, zero-shot. Da qui: loop engineering e l'articolo Anthropic "When AI builds itself". https://youtu.be/YdSKoTPpuvk?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep56_drop
   * I nostri progetti [Lince.sh](https://lince.sh) e AntiVocale ([Google Play](https://play.google.com/store/apps/details?id=com.antivocale.app), [GitHub](https://github.com/RisorseArtificiali/anti-vocale)), ormai li conoscete bene
 
 Da solo:
-  * Sono stato a [PyCon Italia come speakers](https://2026.pycon.it/en/speakers) trovate tutti i contenuti dei miei due interventi come sempre su https://maeste.it nella sezione dedicata ai talks. Metterò li anche i video non appena disponibili
-  * Il 12 giugno sarò a Catania come speaker al [Coderful](https://www.coderful.io/)
+  * Sono stato a Catania come speaker al [Coderful](https://www.coderful.io/)Un delle conferenze meglio organizzate e con i migliori contenuti che mi sia capitato di vedere di recente. Le mie slide le trovate qui https://maeste.it/coderful2026 Non appena sarà disponibile tiroverete li anche il video.
   * Il 24 giugno sarò a Milano come speaker di [AIConf](https://www.aiconf.it/)

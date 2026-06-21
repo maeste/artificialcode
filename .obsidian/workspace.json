@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "329bca55de832338",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interviste/briefing-domenico-gagliardi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "briefing-domenico-gagliardi"
-            }
-          },
-          {
-            "id": "90030e8c19a30aa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "newsletter/it/CY26W21-it.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CY26W21-it"
-            }
-          },
-          {
             "id": "4664da8f7d6e6352",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "newsletter/it/CY26W23-it.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CY26W23-it"
-            }
-          },
-          {
-            "id": "5e07f75880eaf689",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +20,23 @@
               "icon": "lucide-file",
               "title": "thisweek_links_clean"
             }
+          },
+          {
+            "id": "4c17a5abf65a1f64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "thisweek_links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "thisweek_links"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,34 +199,36 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "4664da8f7d6e6352",
+  "active": "4c17a5abf65a1f64",
   "lastOpenFiles": [
-    "newsletter/en/CY26W23.md",
-    "newsletter/it/CY26W23-it.md",
+    "newsletter/en/CY26W24.md",
+    "newsletter/it/CY26W24-it.md",
+    "newsletter/en/CY26W24.md.tmp.2.af293ab0d1d6",
     "deepdive.md",
+    "newsletter/it/CY26W24-it.md.tmp.2.ee3a7abd0923",
+    "newsletter/it/CY26W24-it.md.tmp.2.b972e659353d",
+    "thisweek_links_clean.md",
+    "thisweek_links.md",
+    "Agenda.md",
+    "thisweek_links_clean.md.tmp.2.98d488df263b",
+    "newsletter/it/CY26W23-it.md",
+    "newsletter/en/CY26W23.md",
     "newsletter/en/CY26W23.md.tmp.2.7f3bc016822b",
     "newsletter/it/CY26W23-it.md.tmp.2.63766ca287ca",
     "newsletter/it/CY26W23-it.md.tmp.2.08e3abe4e109",
-    "Agenda.md",
-    "thisweek_links.md",
     "thisweek_links_clean.md.tmp.2.4662b8f739dc",
     "grande_puffo.jpg",
     "newsletter/it/CY26W22-it.md",
     "newsletter/en/CY26W22.md",
     "newsletter/en/CY26W22.md.tmp.2.a215813ce9eb",
     "newsletter/en/CY26W22.md.tmp.2.982180f8fe4b",
-    "newsletter/it/CY26W22-it.md.tmp.2.fcd2fe2cee26",
-    "newsletter/it/CY26W22-it.md.tmp.2.3a49dc429ae9",
     "newsletter/it/CY26W21-it.md",
-    "thisweek_links_clean.md.tmp.2.c1775593da33",
     "newsletter/en/CY26W21.md",
-    "newsletter/en/CY26W21.md.tmp.2.e15bcb2062a1",
     "newsletter/it/CY26W20-it.md",
     "newsletter/en/CY26W20.md",
     "pycon2026-ai-readiness-workshop.md",
     "newsletter/it/CY26W19-it.md",
     "newsletter/en/CY26W19.md",
-    "thisweek_links_clean.md",
     "newsletter/it/CY26W18-it.md",
     "newsletter/en/CY26W18.md",
     "interviste/briefing-domenico-gagliardi.md",
@@ -265,8 +239,6 @@
     "social/campaign-CY26W16-pending.md",
     "social/media/research-wiki-graph.png",
     "social/campaign-CY26W16.md",
-    "inbox.md",
-    "newsletter/en/CY26W16.md",
     "social/media/newsletter-it-preview.png",
     "social/media/newsletter-en-preview.png",
     "social/media/dashboard-full.png",
