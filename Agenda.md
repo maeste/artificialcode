@@ -2,11 +2,10 @@
 ### La mia agenda
 
 [Podcast](https://risorseartificiali.com):
-  *  Nuova intervista: Roberto Stagi (Ratel AI) spiega perché il contesto degli agenti non si satura per colpa degli MCP server, ma perché l'indice dei tool resta nel modello. Open source, benchmark aperti: https://youtu.be/DGWXwzw2ZoY?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=stagi_drop
-- Dentro c'è anche la "agent anxiety": l'ansia di non avere un agente al lavoro mentre sei a pranzo al mare. Più comune di quanto ammettiamo.
-- Sabato è uscito "Scrivere codice è una commodity: Fable e i workflow", dove Stefano dà a Fable un task multilinguaggio e lo porta a casa in una notte con 40 agenti in parallelo, zero-shot. Da qui: loop engineering e l'articolo Anthropic "When AI builds itself". https://youtu.be/YdSKoTPpuvk?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep56_drop
-  * I nostri progetti [Lince.sh](https://lince.sh) e AntiVocale ([Google Play](https://play.google.com/store/apps/details?id=com.antivocale.app), [GitHub](https://github.com/RisorseArtificiali/anti-vocale)), ormai li conoscete bene
+  * Sabato è uscito "La politica USA su AI e open source mi fa drizzare i peli": ho tagliato il 90% del mio abbonamento Anthropic dopo la mossa su Fable e le parole di Dario Amodei. Ascolta: https://youtu.be/iB9MxO5jn6E?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep60_drop
+  * I nostri progetti [Lince.sh](https://lince.sh) e AntiVocale ([Google Play](https://play.google.com/store/apps/details?id=com.antivocale.app), [GitHub](https://github.com/RisorseArtificiali/anti-vocale)), ormai li conoscete bene. Date una occhiata anche ad [Agent ready skills](https://github.com/RisorseArtificiali/agent-ready-skill) di cui ho paralato il 24 giugno ad AI conf.
+  * Stiamo pensando di fare delle live su Youtube e Twitter, brevi, una volta a settimana, ora pranzo o li attorno per raccontarvi e farvi vedere cose pratiche sui nostri progetti, sugli agenti personali e usi diversi dell'AI
 
 Da solo:
-  * Sono stato a Catania come speaker al [Coderful](https://www.coderful.io/)Un delle conferenze meglio organizzate e con i migliori contenuti che mi sia capitato di vedere di recente. Le mie slide le trovate qui https://maeste.it/coderful2026 Non appena sarà disponibile tiroverete li anche il video.
-  * Il 24 giugno sarò a Milano come speaker di [AIConf](https://www.aiconf.it/)
+  * Finalmente un periodo tranquillo per le mie uscite pubbliche...in fondo è arrivata l'estate, ma sto/stiamo già lavorando su Settembre.
+  * Appena escono i video delle conferenze degli scorsi mesi ve li segnalo, perchè vorrei vostro feedback
