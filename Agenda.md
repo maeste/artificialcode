@@ -2,10 +2,7 @@
 ### La mia agenda
 
 [Podcast](https://risorseartificiali.com):
-  * Sabato è uscito "La politica USA su AI e open source mi fa drizzare i peli": ho tagliato il 90% del mio abbonamento Anthropic dopo la mossa su Fable e le parole di Dario Amodei. Ascolta: https://youtu.be/iB9MxO5jn6E?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep60_drop
-  * I nostri progetti [Lince.sh](https://lince.sh) e AntiVocale ([Google Play](https://play.google.com/store/apps/details?id=com.antivocale.app), [GitHub](https://github.com/RisorseArtificiali/anti-vocale)), ormai li conoscete bene. Date una occhiata anche ad [Agent ready skills](https://github.com/RisorseArtificiali/agent-ready-skill) di cui ho paralato il 24 giugno ad AI conf.
-  * Stiamo pensando di fare delle live su Youtube e Twitter, brevi, una volta a settimana, ora pranzo o li attorno per raccontarvi e farvi vedere cose pratiche sui nostri progetti, sugli agenti personali e usi diversi dell'AI
+  * - Mercoledì è uscito "Inferenza europea e zero log", l'intervista a Eugenio Petullà (Regolo.ai) su inferenza LLM in Europa, zero data retention e routing dei modelli. Ascolta: https://open.spotify.com/episode/4mlKC6SrTiixqdNCVjD75T?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=petulla_drop
+- Eugenio spiega perché i tuoi prompt su OpenAI probabilmente finiscono nei log, e perché "i dati in Europa" non basta se il provider risponde a un governo non tuo. https://www.youtube.com/watch?v=gjQOF7CEZQE&utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=petulla_drop
+- Sabato è uscito "Open weight americano e Kimi K3: cambio di scena" (#63 Risorse Artificiali): Kimi K3 terzo al mondo a un quarto del costo di Fable, il primo open weight americano di Thinking Machine Lab, più Hassabis sull'AGI e Torvalds sul kernel. Ascolta: https://www.youtube.com/watch?v=6Q_EmEDixY8?utm_source=codiceartificiale&utm_medium=newsletter&utm_campaign=ep63_drop
 
-Da solo:
-  * Finalmente un periodo tranquillo per le mie uscite pubbliche...in fondo è arrivata l'estate, ma sto/stiamo già lavorando su Settembre.
-  * Appena escono i video delle conferenze degli scorsi mesi ve li segnalo, perchè vorrei vostro feedback
