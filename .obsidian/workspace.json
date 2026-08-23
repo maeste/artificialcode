@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newsletter/it/CY26W29-it.md",
+                "file": "newsletter/en/CY26W33.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CY26W29-it"
+              "title": "CY26W33"
             }
           }
         ],
@@ -56,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -201,6 +203,34 @@
   },
   "active": "5620c291a722991b",
   "lastOpenFiles": [
+    "newsletter/it/CY26W34-it.md",
+    "newsletter/en/CY26W34.md",
+    "newsletter/it/CY26W33-it.md",
+    "thisweek_links_clean.md",
+    "newsletter/en/CY26W33.md",
+    "newsletter/en/CY26W33.md.tmp.2.2d82781cf911",
+    "newsletter/it/CY26W33-it.md.tmp.2.de0f1b5453d6",
+    "newsletter/it/CY26W33-it.md.tmp.2.f833ac97e542",
+    "newsletter/it/CY26W33-it.md.tmp.2.08c459cea186",
+    "newsletter/it/CY26W33-it.md.tmp.2.42b4d5087c56",
+    "newsletter/it/CY26W33-it.md.tmp.2.47def2076bfd",
+    "deepdive.md",
+    "thisweek_links.md",
+    "Agenda.md",
+    "newsletter/en/CY26W32.md",
+    "newsletter/it/CY26W32-it.md",
+    "newsletter/en/CY26W32.md.tmp.2.59f9c86a22b6",
+    "newsletter/it/CY26W32-it.md.tmp.2.3e020ae7db2f",
+    "newsletter/it/CY26W32-it.md.tmp.2.cb1c84e67abc",
+    "newsletter/it/CY26W32-it.md.tmp.2.ae6ff0c3073e",
+    "untracked/wiki/wiki/views/weekly/W31-links.md",
+    "untracked/wiki/wiki/sources/openai-hf-black-hat-debrief.md",
+    "untracked/wiki/wiki/sources/langchain-eval-engineering-skill.md",
+    "untracked/wiki/wiki/sources/kiro-agent-harness.md",
+    "untracked/wiki/wiki/sources/loopx.md",
+    "newsletter/it/CY26W31-it.md",
+    "newsletter/en/CY26W31.md",
+    "newsletter/it/CY26W29-it.md",
     "untracked/wiki/raw/web/introducing-claude-opus-5/assets/f27faddf88a6.png",
     "untracked/wiki/raw/web/introducing-claude-opus-5/assets/d471d5436387.png",
     "untracked/wiki/raw/web/introducing-claude-opus-5/assets/d5f753187850.png",
@@ -213,39 +243,11 @@
     "untracked/wiki/wiki/views/weekly/_template.md",
     "untracked/wiki/wiki/views/weekly/2026-W30.md",
     "untracked/wiki/raw/web/pragmatic-engineer-code-review-load/index.md",
-    "untracked/wiki/raw/web/qwen-image-3/index.html",
     "untracked/wiki/raw/web/qwen-image-3/index.md",
-    "untracked/wiki/raw/web/openai-hf-security-incident/index.html",
     "untracked/wiki/raw/web/google-gemini-flash/index.md",
     "untracked/wiki/raw/web/openai-hf-incident/index.md",
     "untracked/wiki/raw/web/introducing-claude-opus-5/index.md",
     "untracked/wiki/raw/web/addy-osmani-software-factories/index.md",
-    "untracked/wiki/raw/web/introducing-claude-opus-5/assets",
-    "untracked/wiki/raw/web/google-gemini-3-6-flash/index.html",
-    "untracked/wiki/raw/web/akash-bajwa-sparse-by-design/index.md",
-    "untracked/wiki/raw/web/akash-bajwa-sparse-by-design/index.html",
-    "untracked/wiki/raw/web/antirez-news-170/index.html",
-    "untracked/wiki/raw/web/addy-osmani-software-factories/index.html",
-    "untracked/wiki/raw/web/alex-zhang-harness-2026/index.md",
-    "untracked/wiki/raw/web/alex-zhang-harness-2026/index.html",
-    "untracked/wiki/raw/web/Vtrivedy10-2079976006644072796/index.md",
-    "untracked/wiki/wiki/sources/qwen-image-3.md",
-    "untracked/wiki/wiki/sources/pragmatic-engineer-code-review-load.md",
-    "untracked/wiki/wiki/sources/openai-hf-security-incident.md",
-    "untracked/wiki/wiki/sources/google-gemini-3-6-flash.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-16621-msce-memory-skills.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-13285-harness-handbook.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-12747-oat-failure-attribution.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-12227-harness-evaluation.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-09510-failure-as-process.md",
-    "untracked/wiki/wiki/sources/arxiv-2607-09197-routing-meaningful.md",
-    "untracked/wiki/wiki/sources/antirez-news-170.md",
-    "untracked/wiki/wiki/sources/anthropic-claude-opus-5.md",
-    "untracked/wiki/wiki/sources/alex-zhang-harness-2026.md",
-    "untracked/wiki/wiki/sources/akash-bajwa-sparse-by-design.md",
-    "untracked/wiki/wiki/views/weekly",
-    "untracked/wiki/wiki/views/assets",
-    "Pasted image 20260712213536.png",
-    "Pasted image 20260712213349.png"
+    "Pasted image 20260712213536.png"
   ]
 }
