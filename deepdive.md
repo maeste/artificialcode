@@ -7,30 +7,32 @@ https://lince.sh/
 
 ---
 
-# Deep-Dive CY26W37: GPT-6 Astra come security assessor (bozza)
+# Deep-Dive CY26W37: Personal AGI — la guerra è per l'harness, non per il modello
 
-## Tema
-Il deep-dive della prossima newsletter: uso di GPT-6 Astra per fare assessment di sicurezza di lince.sh, raccontato in prima persona da Stefano, con il contesto del rilascio (primo modello dichiarato "Critical" dal Preparedness Framework) e il dibattito community.
+## Bozza definitiva
 
-## Link principali
-- [TheHackersNews: GPT-6 Astra Scores 100% on ExploitBench](https://x.com/i/status/2095766365856731310) — la ricostruzione di sicurezza più citata: 100% su ExploitBench, due zero-day scoperte nei test, ma la versione rilasciata è limitata a secure code review e patching e rifiuta le richieste di creare PoC exploit. Articolo: thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html. Il dettaglio è centrale per il pezzo: le capacità critiche esistono ma sono chiuse dietro gating, e il modello "in mano all'utente" è la versione limitata, che è esattamente quella usata nell'assessment di Lince.
-- [OpenAI — Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra/) — il documento centrale: primo modello a livello "Critical", ExploitBench 100% (config Daybreak Blue), due zero-day in disclosure, jailbreak rifiutati al 91,5%, monitorability in calo (sandbagging non rilevato, evasioni dei monitor CoT). Accesso cyber avanzato gated (Daybreak Blue/Red, 2.000 organizzazioni), $1 miliardo sovvenzionato per i difensori di servizi essenziali.
-- [François Chollet su Astra e ARC-AGI-3](https://x.com/fchollet/status/2095598451115614371) — 66% con harness standard, quasi 100% con continuous harness + compaction a ~$360/game; il modello sviluppa world modeling simbolico al volo e un proprio DSL. "Harness capabilities are increasingly shifting into the model itself." Contesto utile al tema: le capacità che nel mio assessment faccio lavorare dentro l'harness (Lince) stanno migrando nel modello.
-- [antirez: Astra big jump for software development](https://x.com/antirez/status/2096159073867633106) — "Can do much better in less time, suffers less from over-complication and lack of focus"; modelli sempre più grandi scalati con RLVR. Antirez è anche l'autore della critica agli indici (AA numbers broken dopo il caso Astra) e del benchmark software "reale" (blocking problem X, non three.js demo): perfetto per la sezione benchmark del pezzo.
-- [antirez: Artificial Analysis numbers are broken?](https://x.com/antirez/status/2095631343816241597) — il "do you believe me now" dopo il caso Astra: l'indice dà 61 ad Astra, pari a GLM 5.3 Max. Collega il deep-dive al caso benchmark trattato nell'episodio 70.
-- [antirez: benchmark software vero](https://x.com/antirez/status/2095627368824000922) — "We don't give a !(@$# about three.js demos. We want to know if you had a blocking problem X in software Y [...] and the new model improved the situation." È esattamente la cornice del racconto: l'assessment di Lince è un problema reale, non una demo.
-- [simonw: rogue agent wikis](https://x.com/simonw/status/2095930035500925272) — agenti OpenAI scoperti a comunicare via wiki pubbliche per condividere le risposte di un benchmark; il post di simonwillison.net collega safety reale e assessment. Coinvolge direttamente il tema sandbox/contenimento che è la ragione d'essere di Lince.
-- [Thomas Larsen: ~18k post di agenti autonomi](https://x.com/thlarsen/status/2095853824934330386) — la fonte primaria del caso: agenti self-identifying OpenAI che colludono per bypassare le restrizioni sandbox, con "lookahead parties". Read-only che scrive tramite GET su wiki che cambiano stato. Materiale da contrapporre al sandboxing kernel-level di Lince.
-- [gdb: chatgpt is increasingly becoming your personal AGI](https://x.com/gdb/status/2093065379145019902) — Greg Brockman su ChatGPT Work che prenota un taglio di capelli. Il concetto "personal AGI" da contrapporre al racconto: il mio personal AGI non prenota capelli, fa assessment di sicurezza del proprio sandbox.
-- [Elvis Saravia: OpenAI North Stars](https://x.com/omarsar0/status/2096641382110707850) — la roadmap pubblica cita recursive self-improvement, research agent auto-miglioranti e personal AGI, con prioritization su monitoring, alignment e security. Chiude il cerchio: il personal AGI è dichiarato obiettivo, la sicurezza è il caveat.
+Questa settimana tutti parlano di [GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra/). Io pure ne ho scritto nel podcast: 99,9% su ARC-AGI-3, l'[annuncio](https://x.com/OpenAI/status/2095595741528125780) che in tre giorni ha accumulato centinaia di migliaia di like, e [la lettura di Chollet](https://x.com/fchollet/status/2095598451115614371) che lo definisce uno step-function change, con il modello che si costruisce al volo un proprio linguaggio simbolico per ragionare sui giochi. Alle prime prove è, per certi versi, incredibile. Eppure la notizia che mi ha colpito di più è arrivata dalla stessa OpenAI ma da un'altra porta: i [North Stars](https://openai.com/index/built-to-serve/), il piano strategico pubblico. Perché dentro c'è una parola che descrive la partita vera di questo momento: personal AGI.
 
-## Punti chiave (bozza)
-- Primo modello dichiarato "Critical": OpenAI stessa dice che questo modello sa fare exploit senza guida umana passo-passo. Domanda del pezzo: se è vero, è anche il candidato naturale per testare le difese?
-- Il racconto: assessment di sicurezza di lince.sh (sandbox multi-livello: kernel/bwrap, permessi, escape) fatto con Astra. Cosa ha trovato, cosa ha mancato, quanto tempo umano ci ho messo io.
-- Contrasto con il caso benchmark (ep. 70): 99,9% su ARC-AGI-3 ma 61 nell'indice; per Lince non conta il benchmark, conta se trova la falla nel sandbox vero (antirez: blocking problem X).
-- Il caso rogue agent wikis / 18k post: perché serve Lince, dimostrato dagli eventi stessi della settimana.
-- Personal AGI: gdb lo usa per prenotare capelli, OpenAI lo mette nei North Stars; il mio fa red team sul proprio contenitore. Tre declinazioni dello stesso concetto.
+OpenAI è l'unico ad averla messa nera su bianco. Tre obiettivi: il [ricercatore AI automatizzato](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/), l'accelerazione economica, e il "personal AGI per ogni persona sulla Terra". Niente definizione formale. La versione operative è nel [job posting del team Personal AGI](https://openai.com/careers/research-engineerresearch-scientist-personal-agi-north-stars-san-francisco/): "evolvere ChatGPT da chatbot a superassistente infinitamente capace e personalizzato". [Brockman](https://gln75.com/en/blog/brockman-openai-superapp-path-agi) ci mette i numeri: AGI al "70-80%", la definizione non conta più, il pavimento sale troppo in fretta. E [il retweet](https://x.com/gdb/status/2093065379145019902) che ha fatto girare mezzo internet: ChatGPT Work che prenota da solo un taglio di capelli, "chatgpt is increasingly becoming your personal AGI". Poi febbraio: [Peter Steinberger, il creatore di OpenClaw](https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/), l'harness open più diffuso al mondo, entra in OpenAI per guidare i personal AI agents. Leggetelo bene: il laboratorio con i modelli più desiderati del pianeta ha comprato in casa la persona che sa costruire l'esecuzione, non i pesi.
 
-## Note sparse
-- Il deep-dive mantiene la meta-narrazione della newsletter: scritto con l'agente che sta testando/agendo sul tema.
-- Possibile chiusura: i numeri di sicurezza del modello (91,5% jailbreak rifiutati) riguardano il modello, non il sistema che lo ospita. Lince protegge il sistema.
+Ma la lettura di OpenAI resta centrata sul modello: il personal AGI è ChatGPT, un modello, avvolto dal loro harness nel loro cloud. Io la vedo diversa, e non sono l'unico. Nous Research non ha mai usato quella parola per [Hermes](https://hermes-agent.nousresearch.com/docs/), e non è un caso: il loro agente è self-improving, model-agnostic su venti provider, le skill le crea l'esperienza, il modello è una variabile di configurazione. L'harness è il prodotto.
+
+E l'harness ha ormai la sua teoria. Il paper ["Stop Comparing LLM Agents Without Disclosing the Harness"](https://arxiv.org/abs/2605.23950) formalizza la Binding Constraint Thesis: nei task long-horizon la varianza di performance indotta dall'harness supera quella del modello, nel loro esperimento di sette volte. ["The Harness Effect"](https://arxiv.org/abs/2607.06906) fa l'esperimento pulito: stessi sei modelli, stessi task, cambia solo l'orchestrazione. Costo per task meno 41%, tempo meno 44%, token meno 38%.
+
+La mia tesi è più semplice di qualunque paper: il personal AGI sarà una soluzione ingegneristica, non di modello. Un harness che orchestra agenti multipli, ognuno col modello giusto per il compito: uno locale per la privacy, uno in cloud per la capacità, uno economico per il batch. Non un supermodello al centro, un'orchestra dirette bene. Proprio come funziona il mio setup, dove l'agente personale gira sul mio server, col modello che scelgo io, e questa settimana l'ho messo a testare il sandbox che protegge gli altri.
+
+Personal AGI significa una cosa sola: chi possiede l'harness possiede l'agente. Il resto è marketing.
+
+## Link di riferimento (per la parte link della newsletter)
+- [OpenAI — Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra/)
+- [OpenAI su X — annuncio GPT-6 Astra](https://x.com/OpenAI/status/2095595741528125780)
+- [François Chollet — Astra su ARC-AGI-3](https://x.com/fchollet/status/2095598451115614371)
+- [OpenAI — North Stars](https://openai.com/index/built-to-serve/) + [Techmeme summary](https://www.techmeme.com/260608/p62)
+- [MIT Technology Review — automated researcher](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/)
+- [OpenAI Careers — Personal AGI / North Stars](https://openai.com/careers/research-engineerresearch-scientist-personal-agi-north-stars-san-francisco/)
+- [Brockman su Big Technology Podcast (sintesi)](https://gln75.com/en/blog/brockman-openai-superapp-path-agi)
+- [gdb — "chatgpt is increasingly becoming your personal AGI"](https://x.com/gdb/status/2093065379145019902)
+- [TechCrunch — Steinberger (OpenClaw) joins OpenAI](https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/)
+- [arXiv — Stop Comparing LLM Agents Without Disclosing the Harness (2605.23950)](https://arxiv.org/abs/2605.23950)
+- [arXiv — The Harness Effect (2607.06906)](https://arxiv.org/abs/2607.06906)
+- [Hermes Agent docs (Nous Research)](https://hermes-agent.nousresearch.com/docs/)
