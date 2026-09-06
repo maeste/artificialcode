@@ -36,22 +36,22 @@ Personal AGI significa una cosa sola: chi possiede l'harness possiede l'agente. 
 
 ## I link che mi hanno colpito questa settimana
 
-### [Anthropic — Introducing Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+### [Anthropic: Introducing Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
 Anthropic rilascia due versioni dello stesso modello con livelli diversi di safeguards. Fable 5.1 è GA su API, AWS, GCP e Azure: 55,8% su Terminal-Bench 4.0, cache read a $0.25/M (-75%), safeguards ridotte di un fattore enorme nei falsi positivi. Mythos 5.1, la versione più permissiva, resta gated alle organizzazioni USA verificate (CVP e LSVP). Un modello, tanti prodotti: la segmentazione dei safeguard diventa variabile di prodotto.
 
-### [Google — Introducing Gemini 3.8 Flash and 3.8 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/)
+### [Google: Introducing Gemini 3.8 Flash and 3.8 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/)
 
 Terzo Flash in sei settimane. La tesi: 3.8 Flash "works harder", più passi di ragionamento e più tool call agli stessi prezzo e velocità del 3.7. Prezzo introduttivo $0.75/$3.75 per milione con scadenza 31 dicembre 2026, poi il doppio: la guerra dei Flash si sposta sull'economia unitaria. Accanto, Gemini 3.8 Flash Cyber specializzato in patching (pass@1 47,2% su CWE-Bench), accesso gated al Fairwind Program.
 
-### [Google — Gemini Omni 1.1 Flash lets you build with more control](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+### [Google: Gemini Omni 1.1 Flash lets you build with more control](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
 Google porta il modello video Omni a 1.1 production-ready: analisi fino a 10 secondi di filmato precedente per coerenza visiva, scene extension fino a 40 secondi cumulativi, controllo dei keyframe per transizioni e loop, video reference in input per la consistenza dei personaggi. Le preview draft 360p costano un terzo del 720p. Runway, Figma e Adobe tra i clienti citati: il video generativo diventa pipeline, non demo.
 
-### [NVIDIA — NVIDIA to Acquire Hugging Face](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/)
+### [NVIDIA: NVIDIA to Acquire Hugging Face](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/)
 
 NVIDIA acquisisce Hugging Face per $12.930.300.000, la cifra scritta con la precisione del centesimo. In cambio: 18M+ sviluppatori, 3M+ modelli, 500K dataset. Le garanzie nel post di Jensen Huang: la piattaforma resta aperta, il compute NVIDIA non sarà richiesto per build o deploy, supporto multi-cloud e brand 🤗 mantenuto. L'hub neutrale dell'open weights ha un padrone: la promessa di neutralità è da leggere come posizionamento del compratore.
 
-### [Rachel Laycock — rachels-ramblings: code review](https://martinfowler.com/rachels-ramblings/code-review.html)
+### [Rachel Laycock, rachels-ramblings: code review](https://martinfowler.com/rachels-ramblings/code-review.html)
 
 La CTO di Thoughtworks risponde a Brian Houck (DX) dopo un disaccordo nato a Code Remix: "we've been using code review to solve the wrong problems". La review faceva da quality gate, security check, mentoring e knowledge sharing tutte insieme, sempre in ritardo. Con l'AI che genera più codice di quanto gli umani possano ispezionare (a Meta +106% di LOC per diff in un anno), imporre review umana su ogni cambiamento crea un collo di bottiglia: non abbiamo creato organizzazioni 10x, abbiamo creato un backlog. La proposta: spostare il giudizio a sinistra (pair/mob, fitness function) e review umana solo per eccezione. È esattamente il tema della scorsa settimana: se la review umana su tutto non scala, il futuro è la review assistita, ed ecco perché ho aperto il mio repository di skill con pr-walkthrough.
